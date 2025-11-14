@@ -22,7 +22,7 @@ export default function Restaurants({ dict }: { dict: Dictionary['restaurants'] 
         </div>
         <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
           {dict.items.map((restaurant, index) => (
-            <Card key={restaurant.name} className="flex flex-col text-center transition-shadow duration-300 hover:shadow-xl">
+            <Card key={`${restaurant.name}-${index}`} className="flex flex-col text-center transition-shadow duration-300 hover:shadow-xl">
               <CardHeader>
                 <div className="mx-auto">
                   <UtensilsCrossed className="h-8 w-8 text-primary" />
