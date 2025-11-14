@@ -26,7 +26,7 @@ export default function Sports({ dict }: { dict: Dictionary['sports'] }) {
         </div>
         <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {dict.items.map((sport, index) => (
-            <Card key={sport.title} className="flex flex-col overflow-hidden transition-shadow duration-300 hover:shadow-xl">
+            <Card key={`${sport.title}-${index}`} className="flex flex-col overflow-hidden transition-shadow duration-300 hover:shadow-xl">
               <div className="relative h-48 w-full">
                 <Image
                   src={localImages.sports[index].src}
