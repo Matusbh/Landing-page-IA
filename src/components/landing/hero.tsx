@@ -13,7 +13,8 @@ export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
         src={heroBackground.src}
         alt={heroBackground.alt}
         data-ai-hint={heroBackground.hint}
-        fill
+        width={1920}
+        height={1080}
         className="object-cover"
         priority
       />

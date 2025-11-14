@@ -30,7 +30,8 @@ export default function Explore({ dict }: { dict: Dictionary['explore'] }) {
                   src={imageData.explore[index].src}
                   alt={imageData.explore[index].alt}
                   data-ai-hint={imageData.explore[index].hint}
-                  fill
+                  width={600}
+                  height={800}
                   className="rounded-xl object-cover"
                 />
               </div>
