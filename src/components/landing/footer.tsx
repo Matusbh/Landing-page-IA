@@ -1,3 +1,4 @@
+
 import type { Dictionary } from '@/lib/dictionaries'
 import Link from 'next/link'
 import { Mountain } from 'lucide-react'
@@ -36,7 +37,7 @@ export default function Footer({ dict, navDict }: { dict: Dictionary['footer'], 
             <h3 className="font-semibold tracking-wider uppercase">{dict.quick_links.title}</h3>
             <ul className="space-y-2">
               {navLinks.map((link) => (
-                <li key={link.name}>
+                <li key={link.href}>
                   <a href={link.href} className="text-muted-foreground hover:text-primary transition-colors">{link.name}</a>
                 </li>
               ))}
