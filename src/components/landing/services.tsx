@@ -1,3 +1,4 @@
+import * as React from 'react'
 import type { Dictionary } from '@/lib/dictionaries'
 import { Wifi, AirVent, ShowerHead, CookingPot, ScreenShare, Sun, WashingMachine, ParkingCircle, ArrowUpNarrowWide, BedDouble, Layers, KeyRound } from 'lucide-react'
 
