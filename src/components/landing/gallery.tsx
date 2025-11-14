@@ -9,7 +9,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import { localImages } from "@/lib/local-images"
+import imageData from "@/app/lib/placeholder-images.json"
 import type { Dictionary } from "@/lib/dictionaries"
 import * as React from "react"
 import Autoplay from "embla-carousel-autoplay"
@@ -37,7 +37,7 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
             onMouseLeave={plugin.current.reset}
           >
             <CarouselContent>
-              {localImages.gallery.map((image) => (
+              {imageData.gallery.map((image) => (
                 <CarouselItem key={image.id}>
                   <Card className="overflow-hidden">
                     <CardContent className="flex aspect-[16/10] items-center justify-center p-0">
@@ -45,6 +45,7 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
                         <Image
                           src={image.src}
                           alt={image.alt}
+                          data-ai-hint={image.hint}
                           fill
                           className="object-cover"
                           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

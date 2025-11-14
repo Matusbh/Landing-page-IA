@@ -2,7 +2,7 @@ import type { Dictionary } from '@/lib/dictionaries'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { localImages } from '@/lib/local-images'
+import imageData from '@/app/lib/placeholder-images.json'
 
 const exploreLinks = [
     "https://www.google.com/maps/place/C.+Garajonay,+10,+38686+Alcal%C3%A1,+Santa+Cruz+de+Tenerife/@28.2025539,-16.8268553,973m/data=!3m2!1e3!4b1!4m6!3m5!1s0xc6a8ddcf68000bb:0x21a8edaace491a1e!8m2!3d28.2025539!4d-16.8268553!16s%2Fg%2F11c271fkbx?entry=ttu&g_ep=EgoyMDI1MTEwNS4wIKXMDSoASAFQAw%3D%3D",
@@ -27,8 +27,9 @@ export default function Explore({ dict }: { dict: Dictionary['explore'] }) {
             <div key={`${item.title}-${index}`} className="flex flex-col gap-8 md:grid md:grid-cols-2 md:items-center md:gap-16">
               <div className={`relative h-80 w-full rounded-xl shadow-xl ${index % 2 === 1 ? 'md:order-last' : ''}`}>
                 <Image
-                  src={localImages.explore[index].src}
-                  alt={localImages.explore[index].alt}
+                  src={imageData.explore[index].src}
+                  alt={imageData.explore[index].alt}
+                  data-ai-hint={imageData.explore[index].hint}
                   fill
                   className="rounded-xl object-cover"
                 />

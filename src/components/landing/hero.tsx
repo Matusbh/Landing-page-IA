@@ -1,16 +1,18 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { localImages } from '@/lib/local-images'
+import imageData from '@/app/lib/placeholder-images.json';
 import { BOOKING_URL } from '@/lib/constants'
 import type { Dictionary } from '@/lib/dictionaries'
 
 export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
+  const { heroBackground } = imageData;
   return (
     <section className="relative h-[85vh] w-full">
       <Image
-        src={localImages.heroBackground}
-        alt="Sunset view from the terrace"
+        src={heroBackground.src}
+        alt={heroBackground.alt}
+        data-ai-hint={heroBackground.hint}
         fill
         className="object-cover"
         priority

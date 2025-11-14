@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Button } from "@/components/ui/button"
 import Link from 'next/link'
 import Image from 'next/image'
-import { localImages } from '@/lib/local-images'
+import imageData from '@/app/lib/placeholder-images.json'
 
 const sportsLinks = [
   "https://www.google.com/maps/search/?api=1&query=hiking+trails+near+Alcalá+Tenerife",
@@ -29,8 +29,9 @@ export default function Sports({ dict }: { dict: Dictionary['sports'] }) {
             <Card key={`${sport.title}-${index}`} className="flex flex-col overflow-hidden transition-shadow duration-300 hover:shadow-xl">
               <div className="relative h-48 w-full">
                 <Image
-                  src={localImages.sports[index].src}
-                  alt={localImages.sports[index].alt}
+                  src={imageData.sports[index].src}
+                  alt={imageData.sports[index].alt}
+                  data-ai-hint={imageData.sports[index].hint}
                   fill
                   className="object-cover"
                 />
