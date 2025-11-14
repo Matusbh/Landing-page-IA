@@ -1,0 +1,161 @@
+
+{
+  "header": {
+    "nav": {
+      "interior": "Texto pendiente de traducción",
+      "services": "Texto pendiente de traducción",
+      "features": "Texto pendiente de traducción",
+      "zone": "Texto pendiente de traducción",
+      "restaurants": "Texto pendiente de traducción",
+      "sports": "Texto pendiente de traducción"
+    },
+    "book_button": "Texto pendiente de traducción",
+    "theme_switcher": {
+      "label": "Texto pendiente de traducción",
+      "light": "Texto pendiente de traducción",
+      "dark": "Texto pendiente de traducción",
+      "system": "Texto pendiente de traducción"
+    },
+    "language_switcher": {
+      "label": "Texto pendiente de traducción"
+    }
+  },
+  "hero": {
+    "title": "Texto pendiente de traducción",
+    "subtitle": "Texto pendiente de traducción",
+    "book_button": "Texto pendiente de traducción"
+  },
+  "valueProposition": {
+    "title": "Texto pendiente de traducción",
+    "description1": "Texto pendiente de traducción",
+    "description2": "Texto pendiente de traducción"
+  },
+  "gallery": {
+    "title": "Texto pendiente de traducción",
+    "subtitle": "Texto pendiente de traducción"
+  },
+  "services": {
+    "title": "Texto pendiente de traducción",
+    "subtitle": "Texto pendiente de traducción",
+    "items": {
+      "wifi": "Texto pendiente de traducción",
+      "ac": "Texto pendiente de traducción",
+      "private_bathroom": "Texto pendiente de traducción",
+      "kitchen": "Texto pendiente de traducción",
+      "tv": "Texto pendiente de traducción",
+      "terrace": "Texto pendiente de traducción",
+      "washing_machine": "Texto pendiente de traducción",
+      "parking": "Texto pendiente de traducción",
+      "elevator": "Texto pendiente de traducción",
+      "bed_linen": "Texto pendiente de traducción",
+      "towels": "Texto pendiente de traducción",
+      "contactless_checkin": "Texto pendiente de traducción"
+    }
+  },
+  "features": {
+    "title": "Texto pendiente de traducción",
+    "subtitle": "Texto pendiente de traducción",
+    "items": [
+      {
+        "title": "Texto pendiente de traducción",
+        "description": "Texto pendiente de traducción"
+      },
+      {
+        "title": "Texto pendiente de traducción",
+        "description": "Texto pendiente de traducción"
+      },
+      {
+        "title": "Texto pendiente de traducción",
+        "description": "Texto pendiente de traducción"
+      },
+      {
+        "title": "Texto pendiente de traducción",
+        "description": "Texto pendiente de traducción"
+      }
+    ]
+  },
+  "explore": {
+    "title": "Texto pendiente de traducción",
+    "subtitle": "Texto pendiente de traducción",
+    "discover_button": "Texto pendiente de traducción",
+    "items": [
+      {
+        "title": "Texto pendiente de traducción",
+        "description": "Texto pendiente de traducción"
+      },
+      {
+        "title": "Texto pendiente de traducción",
+        "description": "Texto pendiente de traducción"
+      },
+      {
+        "title": "Texto pendiente de traducción",
+        "description": "Texto pendiente de traducción"
+      },
+      {
+        "title": "Texto pendiente de traducción",
+        "description": "Texto pendiente de traducción"
+      },
+      {
+        "title": "Texto pendiente de traducción",
+        "description": "Texto pendiente de traducción"
+      }
+    ]
+  },
+  "restaurants": {
+    "title": "Texto pendiente de traducción",
+    "subtitle": "Texto pendiente de traducción",
+    "gmaps_button": "Texto pendiente de traducción",
+    "items": [
+      { "name": "Texto pendiente de traducción" },
+      { "name": "Texto pendiente de traducción" },
+      { "name": "Texto pendiente de traducción" }
+    ]
+  },
+  "sports": {
+    "title": "Texto pendiente de traducción",
+    "subtitle": "Texto pendiente de traducción",
+    "gmaps_button": "Texto pendiente de traducción",
+    "items": [
+      {
+        "title": "Texto pendiente de traducción",
+        "description": "Texto pendiente de traducción"
+      },
+      {
+        "title": "Texto pendiente de traducción",
+        "description": "Texto pendiente de traducción"
+      },
+      {
+        "title": "Texto pendiente de traducción",
+        "description": "Texto pendiente de traducción"
+      },
+      {
+        "title": "Texto pendiente de traducción",
+        "description": "Texto pendiente de traducción"
+      },
+      {
+        "title": "Texto pendiente de traducción",
+        "description": "Texto pendiente de traducción"
+      },
+      {
+        "title": "Texto pendiente de traducción",
+        "description": "Texto pendiente de traducción"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Texto pendiente de traducción",
+    "description": "Texto pendiente de traducción",
+    "book_button": "Texto pendiente de traducción"
+  },
+  "footer": {
+    "description": "Texto pendiente de traducción",
+    "contact": {
+      "title": "Texto pendiente de traducción",
+      "address": "Texto pendiente de traducción"
+    },
+    "quick_links": {
+      "title": "Texto pendiente de traducción"
+    },
+    "copyright": "Texto pendiente de traducción"
+  }
+}

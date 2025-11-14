@@ -1,0 +1,161 @@
+
+{
+  "header": {
+    "nav": {
+      "interior": "Interior",
+      "services": "Servicios",
+      "features": "Características",
+      "zone": "Zona",
+      "restaurants": "Restaurantes",
+      "sports": "Deportes"
+    },
+    "book_button": "Reservar Ahora",
+    "theme_switcher": {
+      "label": "Tema",
+      "light": "Claro",
+      "dark": "Oscuro",
+      "system": "Sistema"
+    },
+    "language_switcher": {
+      "label": "Idioma"
+    }
+  },
+  "hero": {
+    "title": "Tu Escapada Soñada en Alcalá",
+    "subtitle": "Disfruta de impresionantes vistas al mar y atardeceres inolvidables desde nuestro exclusivo ático.",
+    "book_button": "Reservar en Booking.com"
+  },
+  "valueProposition": {
+    "title": "Comodidad Inolvidable, Ubicación Inmejorable",
+    "description1": "Bienvenido a DioVista, un exclusivo ático en el corazón de Alcalá, donde el lujo se encuentra con la serenidad. Diseñado para ofrecer una experiencia única, nuestro alojamiento combina un interiorismo moderno y acogedor con una terraza espectacular que te regalará vistas panorámicas al océano y puestas de sol que te dejarán sin aliento.",
+    "description2": "Cada detalle ha sido cuidadosamente seleccionado para garantizar tu máximo confort. Desde la cocina totalmente equipada hasta las cómodas habitaciones, todo está pensado para que te sientas como en casa, pero con el Atlántico a tus pies. Despierta con el sonido de las olas, desayuna bajo el sol tinerfeño y termina el día brindando en tu paraíso privado."
+  },
+  "gallery": {
+    "title": "Un Vistazo al Interior",
+    "subtitle": "Un recorrido visual por las estancias y detalles que hacen de nuestro ático un lugar único."
+  },
+  "services": {
+    "title": "Características y Servicios",
+    "subtitle": "Comodidades para que te sientas como en casa.",
+    "items": {
+      "wifi": "WiFi gratis",
+      "ac": "Aire acondicionado",
+      "private_bathroom": "Baño privado",
+      "kitchen": "Cocina completa",
+      "tv": "TV de pantalla plana",
+      "terrace": "Terraza con vistas",
+      "washing_machine": "Lavadora",
+      "parking": "Aparcamiento cercano",
+      "elevator": "Ascensor",
+      "bed_linen": "Ropa de cama",
+      "towels": "Toallas",
+      "contactless_checkin": "Check-in sin contacto"
+    }
+  },
+  "features": {
+    "title": "Por qué te encantará este lugar",
+    "subtitle": "Todo lo que necesitas para unas vacaciones perfectas.",
+    "items": [
+      {
+        "title": "Terraza Privada",
+        "description": "Un amplio espacio para tomar el sol, disfrutar de una cena al aire libre o simplemente relajarte mientras contemplas el mar."
+      },
+      {
+        "title": "Ubicación Perfecta",
+        "description": "A pocos pasos de la playa, piscinas naturales, restaurantes y tiendas. Todo el encanto de Alcalá a tu alcance."
+      },
+      {
+        "title": "Vistas Espectaculares",
+        "description": "Desde la terraza y el salón, podrás disfrutar de vistas ininterrumpidas del océano y la isla de La Gomera."
+      },
+      {
+        "title": "Comodidad Moderna",
+        "description": "Totalmente reformado y equipado con todas las comodidades modernas para garantizar una estancia inolvidable."
+      }
+    ]
+  },
+  "explore": {
+    "title": "Explora la Zona",
+    "subtitle": "Un mundo de belleza y aventura a tu alcance.",
+    "discover_button": "Descubre más →",
+    "items": [
+      {
+        "title": "El Encanto de Alcalá",
+        "description": "Pasea por las tranquilas calles de este auténtico pueblo pesquero, descubre su plaza y disfruta de su ambiente relajado."
+      },
+      {
+        "title": "Playa de Alcalá",
+        "description": "Una acogedora playa de arena negra ideal para un baño refrescante, a solo unos minutos a pie del ático."
+      },
+      {
+        "title": "Costa Encantadora",
+        "description": "Recorre el paseo marítimo que conecta varias piscinas naturales de agua salada, perfectas para toda la familia."
+      },
+      {
+        "title": "Playa Méndez",
+        "description": "Una pequeña cala escondida, ideal para quienes buscan tranquilidad y un contacto más íntimo con el mar."
+      },
+      {
+        "title": "Aventuras Más Allá",
+        "description": "A poca distancia en coche, te esperan los majestuosos acantilados de Los Gigantes y el Parque Nacional del Teide."
+      }
+    ]
+  },
+  "restaurants": {
+    "title": "Gastronomía Local",
+    "subtitle": "Saborea lo mejor de la cocina canaria e internacional.",
+    "gmaps_button": "Ver en Google Maps",
+    "items": [
+      { "name": "Restaurante Saúco" },
+      { "name": "El Pescador" },
+      { "name": "Lupulo Esencia" }
+    ]
+  },
+  "sports": {
+    "title": "Actividades para Deportistas",
+    "subtitle": "Mantente activo y disfruta del entorno natural.",
+    "gmaps_button": "Ver en Google Maps",
+    "items": [
+      {
+        "title": "Senderismo",
+        "description": "Explora los senderos costeros y de montaña con vistas espectaculares."
+      },
+      {
+        "title": "Ciclismo",
+        "description": "Recorre las carreteras panorámicas de la isla, un paraíso para los ciclistas."
+      },
+      {
+        "title": "Golf",
+        "description": "Disfruta de campos de golf de clase mundial con el océano como telón de fondo."
+      },
+      {
+        "title": "Surf y Paddle Surf",
+        "description": "Aprovecha las olas y las aguas tranquilas para practicar deportes acuáticos."
+      },
+      {
+        "title": "Kayak",
+        "description": "Rema por la costa y descubre cuevas marinas y calas escondidas."
+      },
+      {
+        "title": "Buceo",
+        "description": "Sumérgete en las aguas cristalinas y descubre la rica vida marina de Tenerife."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para tu escapada?",
+    "description": "No esperes más para vivir la experiencia DioVista. Las vistas de tus sueños te están esperando.",
+    "book_button": "Ver disponibilidad en Booking.com"
+  },
+  "footer": {
+    "description": "Tu refugio exclusivo en Alcalá, Tenerife. Disfruta de vistas inolvidables y una estancia de lujo.",
+    "contact": {
+      "title": "Contacto",
+      "address": "Calle Garajonay 10, Alcalá, España"
+    },
+    "quick_links": {
+      "title": "Enlaces rápidos"
+    },
+    "copyright": "© {year} DioVista. Todos los derechos reservados."
+  }
+}
