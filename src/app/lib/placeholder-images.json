@@ -6,25 +6,25 @@
     "hint": "sunset terrace"
   },
   "gallery": [
-    { "id": "gallery1", "src": "/images/prueba-sunset.png", "alt": "Comfortable living room with a view", "hint": "living room" },
-    { "id": "gallery2", "src": "/images/prueba-sunset.png", "alt": "Modern and fully equipped kitchen", "hint": "modern kitchen" },
-    { "id": "gallery3", "src": "/images/prueba-sunset.png", "alt": "Cozy bedroom with natural light", "hint": "cozy bedroom" },
-    { "id": "gallery4", "src": "/images/prueba-sunset.png", "alt": "Spacious terrace with sunbeds", "hint": "terrace sunbeds" },
-    { "id": "gallery5", "src": "/images/prueba-sunset.png", "alt": "Bathroom with modern fixtures", "hint": "modern bathroom" }
+    { "id": "gallery1", "src": "/images/alcala-cama-2.jpeg", "alt": "Comfortable living room with a view", "hint": "living room" },
+    { "id": "gallery2", "src": "/images/terraza-alcala.jpeg", "alt": "Modern and fully equipped kitchen", "hint": "modern kitchen" },
+    { "id": "gallery3", "src": "/images/Alcala-cama.jpeg", "alt": "Cozy bedroom with natural light", "hint": "cozy bedroom" },
+    { "id": "gallery4", "src": "/images/cala.jpeg", "alt": "Spacious terrace with sunbeds", "hint": "terrace sunbeds" },
+    { "id": "gallery5", "src": "/images/parque.jpeg", "alt": "Bathroom with modern fixtures", "hint": "modern bathroom" }
   ],
   "explore": [
-    { "id": "explore1", "src": "/images/prueba-sunset.png", "alt": "Charming streets of Alcalá", "hint": "charming street" },
-    { "id": "explore2", "src": "/images/explore-2.jpg", "alt": "Alcalá beach with volcanic sand", "hint": "volcanic beach" },
-    { "id": "explore3", "src": "/images/explore-3.jpg", "alt": "Stunning coastline view", "hint": "coastline view" },
-    { "id": "explore4", "src": "/images/explore-4.jpg", "alt": "Secluded Méndez beach", "hint": "secluded beach" },
-    { "id": "explore5", "src": "/images/explore-5.jpg", "alt": "The majestic cliffs of Los Gigantes", "hint": "majestic cliffs" }
+    { "id": "explore1", "src": "/images/alcala-tenerife-pueblo.webp", "alt": "Charming streets of Alcalá", "hint": "charming street" },
+    { "id": "explore2", "src": "/images/playa-la-jaquita.webp", "alt": "Alcalá beach with volcanic sand", "hint": "volcanic beach" },
+    { "id": "explore3", "src": "/images/costa.webp", "alt": "Stunning coastline view", "hint": "coastline view" },
+    { "id": "explore4", "src": "/images/Mendaz.webp", "alt": "Secluded Méndez beach", "hint": "secluded beach" },
+    { "id": "explore5", "src": "/images/gigas.webp", "alt": "The majestic cliffs of Los Gigantes", "hint": "majestic cliffs" }
   ],
   "sports": [
-    { "id": "sports1", "src": "/images/sports-1.jpg", "alt": "Person hiking on a coastal trail", "hint": "coastal hiking" },
-    { "id": "sports2", "src": "/images/sports-2.jpg", "alt": "Cyclist on a scenic mountain road", "hint": "mountain cycling" },
-    { "id": "sports3", "src": "/images/sports-3.jpg", "alt": "Golfer on a lush green course", "hint": "golf course" },
-    { "id": "sports4", "src": "/images/sports-4.jpg", "alt": "Surfer riding a wave", "hint": "wave surfing" },
-    { "id": "sports5", "src": "/images/sports-5.jpg", "alt": "Kayakers paddling in the ocean", "hint": "ocean kayaking" },
-    { "id": "sports6", "src": "/images/sports-6.jpg", "alt": "Diver exploring underwater life", "hint": "underwater diving" }
+    { "id": "sports1", "src": "/images/paseo.PNG", "alt": "Person hiking on a coastal trail", "hint": "coastal hiking" },
+    { "id": "sports2", "src": "/images/calis.PNG", "alt": "Cyclist on a scenic mountain road", "hint": "mountain cycling" },
+    { "id": "sports3", "src": "/images/skate.PNG", "alt": "Golfer on a lush green course", "hint": "golf course" },
+    { "id": "sports4", "src": "/images/tenis.jpg", "alt": "Surfer riding a wave", "hint": "wave surfing" },
+    { "id": "sports5", "src": "/images/basket.jpg", "alt": "Kayakers paddling in the ocean", "hint": "ocean kayaking" },
+    { "id": "sports6", "src": "/images/voley.PNG", "alt": "Diver exploring underwater life", "hint": "underwater diving" }
   ]
 }

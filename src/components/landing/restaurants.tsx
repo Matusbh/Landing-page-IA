@@ -7,7 +7,7 @@ import { UtensilsCrossed } from 'lucide-react'
 const restaurantLinks = [
   "https://www.google.com/maps/search/?api=1&query=Restaurante+Saúco+Alcalá",
   "https://www.google.com/maps/search/?api=1&query=Restaurante+El+Pescador+Alcalá",
-  "https://www.google.com/maps/search/?api=1&query=Lupulo+Esencia+Alcalá"
+  "https://www.google.com/maps/place/Restaurante+Muelle+Viejo/@28.2014956,-16.8347091,973m/data=!3m2!1e3!4b1!4m6!3m5!1s0xc6a8de65d576da5:0xd307221072a7140d!8m2!3d28.201491!4d-16.8298382!16s%2Fg%2F11g2_z64j6?entry=ttu&g_ep=EgoyMDI1MTExMS4wIKXMDSoASAFQAw%3D%3D"
 ]
 
 export default function Restaurants({ dict }: { dict: Dictionary['restaurants'] }) {
