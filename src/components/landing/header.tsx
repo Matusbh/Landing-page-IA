@@ -30,7 +30,7 @@ export default function Header({ dict, lang }: { dict: Dictionary['header'], lan
         
         <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
           {navItems.map((item) => (
-            <a key={item.label} href={item.href} className="transition-colors hover:text-primary/80 text-foreground/60">
+            <a key={item.href} href={item.href} className="transition-colors hover:text-primary/80 text-foreground/60">
               {item.label}
             </a>
           ))}
@@ -53,7 +53,7 @@ export default function Header({ dict, lang }: { dict: Dictionary['header'], lan
                   </Link>
                   <nav className="grid gap-6 text-lg font-medium">
                     {navItems.map((item) => (
-                      <a key={item.label} href={item.href} className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
+                      <a key={item.href} href={item.href} className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
                         {item.label}
                       </a>
                     ))}
