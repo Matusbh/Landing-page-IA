@@ -21,7 +21,7 @@ export default function Features({ dict }: { dict: Dictionary['features'] }) {
         </div>
         <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {dict.items.map((feature, index) => (
-            <Card key={feature.title} className="text-center shadow-lg">
+            <Card key={`${feature.title}-${index}`} className="text-center shadow-lg">
               <CardHeader>
                 <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
                   {icons[index]}
