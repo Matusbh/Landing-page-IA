@@ -29,8 +29,8 @@ export default function Services({ dict }: { dict: Dictionary['services'] }) {
           </p>
         </div>
         <div className="mt-16 grid grid-cols-2 gap-8 text-center sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-          {services.map((service) => (
-            <div key={service.label} className="flex flex-col items-center gap-2">
+          {services.map((service, index) => (
+            <div key={`${service.label}-${index}`} className="flex flex-col items-center gap-2">
               <div className="flex h-16 w-16 items-center justify-center rounded-lg bg-accent/10 text-accent">
                 {React.cloneElement(service.icon, { className: "h-8 w-8" })}
               </div>
