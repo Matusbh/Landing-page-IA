@@ -25,14 +25,13 @@ export default function Explore({ dict }: { dict: Dictionary['explore'] }) {
         <div className="mt-16 space-y-16">
           {dict.items.map((item, index) => (
             <div key={`${item.title}-${index}`} className="flex flex-col gap-8 md:grid md:grid-cols-2 md:items-center md:gap-16">
-              <div className={`relative h-80 w-full rounded-xl shadow-xl ${index % 2 === 1 ? 'md:order-last' : ''}`}>
+              <div className={`relative h-80 w-full rounded-xl shadow-xl overflow-hidden ${index % 2 === 1 ? 'md:order-last' : ''}`}>
                 <Image
                   src={imageData.explore[index].src}
                   alt={imageData.explore[index].alt}
                   data-ai-hint={imageData.explore[index].hint}
-                  width={600}
-                  height={800}
-                  className="rounded-xl object-cover"
+                  fill
+                  className="object-cover"
                 />
               </div>
               <div>

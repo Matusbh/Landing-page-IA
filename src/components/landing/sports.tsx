@@ -32,8 +32,7 @@ export default function Sports({ dict }: { dict: Dictionary['sports'] }) {
                   src={imageData.sports[index].src}
                   alt={imageData.sports[index].alt}
                   data-ai-hint={imageData.sports[index].hint}
-                  width={600}
-                  height={400}
+                  fill
                   className="object-cover"
                 />
               </div>
