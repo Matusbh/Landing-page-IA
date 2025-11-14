@@ -6,14 +6,14 @@
     "hint": "sunset terrace"
   },
   "gallery": [
-    { "id": "gallery1", "src": "/images/gallery-1.jpg", "alt": "Comfortable living room with a view", "hint": "living room" },
-    { "id": "gallery2", "src": "/images/gallery-2.jpg", "alt": "Modern and fully equipped kitchen", "hint": "modern kitchen" },
-    { "id": "gallery3", "src": "/images/gallery-3.jpg", "alt": "Cozy bedroom with natural light", "hint": "cozy bedroom" },
-    { "id": "gallery4", "src": "/images/gallery-4.jpg", "alt": "Spacious terrace with sunbeds", "hint": "terrace sunbeds" },
-    { "id": "gallery5", "src": "/images/gallery-5.jpg", "alt": "Bathroom with modern fixtures", "hint": "modern bathroom" }
+    { "id": "gallery1", "src": "/images/prueba-sunset.png", "alt": "Comfortable living room with a view", "hint": "living room" },
+    { "id": "gallery2", "src": "/images/prueba-sunset.png", "alt": "Modern and fully equipped kitchen", "hint": "modern kitchen" },
+    { "id": "gallery3", "src": "/images/prueba-sunset.png", "alt": "Cozy bedroom with natural light", "hint": "cozy bedroom" },
+    { "id": "gallery4", "src": "/images/prueba-sunset.png", "alt": "Spacious terrace with sunbeds", "hint": "terrace sunbeds" },
+    { "id": "gallery5", "src": "/images/prueba-sunset.png", "alt": "Bathroom with modern fixtures", "hint": "modern bathroom" }
   ],
   "explore": [
-    { "id": "explore1", "src": "/images/explore-1.jpg", "alt": "Charming streets of Alcalá", "hint": "charming street" },
+    { "id": "explore1", "src": "/images/prueba-sunset.png", "alt": "Charming streets of Alcalá", "hint": "charming street" },
     { "id": "explore2", "src": "/images/explore-2.jpg", "alt": "Alcalá beach with volcanic sand", "hint": "volcanic beach" },
     { "id": "explore3", "src": "/images/explore-3.jpg", "alt": "Stunning coastline view", "hint": "coastline view" },
     { "id": "explore4", "src": "/images/explore-4.jpg", "alt": "Secluded Méndez beach", "hint": "secluded beach" },

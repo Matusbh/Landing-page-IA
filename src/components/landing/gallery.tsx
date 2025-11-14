@@ -46,10 +46,8 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
                           src={image.src}
                           alt={image.alt}
                           data-ai-hint={image.hint}
-                          width={800}
-                          height={600}
+                          fill
                           className="object-cover"
-                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         />
                       </div>
                     </CardContent>
