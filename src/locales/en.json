@@ -2,160 +2,160 @@
 {
   "header": {
     "nav": {
-      "interior": "Texto pendiente de traducción",
-      "services": "Texto pendiente de traducción",
-      "features": "Texto pendiente de traducción",
-      "zone": "Texto pendiente de traducción",
-      "restaurants": "Texto pendiente de traducción",
-      "sports": "Texto pendiente de traducción"
+      "interior": "Interior",
+      "services": "Services",
+      "features": "Features",
+      "zone": "Area",
+      "restaurants": "Restaurants",
+      "sports": "Sports"
     },
-    "book_button": "Texto pendiente de traducción",
+    "book_button": "Book Now",
     "theme_switcher": {
-      "label": "Texto pendiente de traducción",
-      "light": "Texto pendiente de traducción",
-      "dark": "Texto pendiente de traducción",
-      "system": "Texto pendiente de traducción"
+      "label": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
     },
     "language_switcher": {
-      "label": "Texto pendiente de traducción"
+      "label": "Language"
     }
   },
   "hero": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
-    "book_button": "Texto pendiente de traducción"
+    "title": "Your Dream Getaway in Alcalá",
+    "subtitle": "Enjoy stunning sea views and unforgettable sunsets from our exclusive penthouse.",
+    "book_button": "Book on Booking.com"
   },
   "valueProposition": {
-    "title": "Texto pendiente de traducción",
-    "description1": "Texto pendiente de traducción",
-    "description2": "Texto pendiente de traducción"
+    "title": "Unforgettable Comfort, Unbeatable Location",
+    "description1": "Welcome to DioVista, an exclusive penthouse in the heart of Alcalá, where luxury meets serenity. Designed to offer a unique experience, our accommodation combines a modern and cozy interior design with a spectacular terrace that will give you panoramic ocean views and breathtaking sunsets.",
+    "description2": "Every detail has been carefully selected to ensure your maximum comfort. From the fully equipped kitchen to the comfortable rooms, everything is designed to make you feel at home, but with the Atlantic at your feet. Wake up to the sound of the waves, have breakfast under the Tenerife sun, and end the day with a toast in your private paradise."
   },
   "gallery": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción"
+    "title": "A Glimpse Inside",
+    "subtitle": "A visual tour of the rooms and details that make our penthouse a unique place."
   },
   "services": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
+    "title": "Features and Services",
+    "subtitle": "Amenities to make you feel at home.",
     "items": {
-      "wifi": "Texto pendiente de traducción",
-      "ac": "Texto pendiente de traducción",
-      "private_bathroom": "Texto pendiente de traducción",
-      "kitchen": "Texto pendiente de traducción",
-      "tv": "Texto pendiente de traducción",
-      "terrace": "Texto pendiente de traducción",
-      "washing_machine": "Texto pendiente de traducción",
-      "parking": "Texto pendiente de traducción",
-      "elevator": "Texto pendiente de traducción",
-      "bed_linen": "Texto pendiente de traducción",
-      "towels": "Texto pendiente de traducción",
-      "contactless_checkin": "Texto pendiente de traducción"
+      "wifi": "Free WiFi",
+      "ac": "Air conditioning",
+      "private_bathroom": "Private bathroom",
+      "kitchen": "Full kitchen",
+      "tv": "Flat screen TV",
+      "terrace": "Terrace with views",
+      "washing_machine": "Washing machine",
+      "parking": "Nearby parking",
+      "elevator": "Elevator",
+      "bed_linen": "Bed linen",
+      "towels": "Towels",
+      "contactless_checkin": "Contactless check-in"
     }
   },
   "features": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
+    "title": "Why you'll love this place",
+    "subtitle": "Everything you need for a perfect vacation.",
     "items": [
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Private Terrace",
+        "description": "A spacious area for sunbathing, enjoying an outdoor dinner, or simply relaxing while contemplating the sea."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Perfect Location",
+        "description": "Just steps from the beach, natural pools, restaurants, and shops. All the charm of Alcalá at your fingertips."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Spectacular Views",
+        "description": "From the terrace and living room, you can enjoy uninterrupted views of the ocean and the island of La Gomera."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Modern Comfort",
+        "description": "Completely renovated and equipped with all modern amenities to ensure an unforgettable stay."
       }
     ]
   },
   "explore": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
-    "discover_button": "Texto pendiente de traducción",
+    "title": "Explore the Area",
+    "subtitle": "A world of beauty and adventure at your fingertips.",
+    "discover_button": "Discover more →",
     "items": [
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "The Charm of Alcalá",
+        "description": "Stroll through the quiet streets of this authentic fishing village, discover its square, and enjoy its relaxed atmosphere."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Alcalá Beach",
+        "description": "A cozy black sand beach ideal for a refreshing swim, just a few minutes' walk from the penthouse."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Enchanting Coastline",
+        "description": "Walk along the promenade that connects several natural saltwater pools, perfect for the whole family."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Méndez Beach",
+        "description": "A small hidden cove, ideal for those seeking tranquility and a more intimate contact with the sea."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Adventures Beyond",
+        "description": "A short drive away, the majestic cliffs of Los Gigantes and the Teide National Park await you."
       }
     ]
   },
   "restaurants": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
-    "gmaps_button": "Texto pendiente de traducción",
+    "title": "Local Gastronomy",
+    "subtitle": "Savor the best of Canarian and international cuisine.",
+    "gmaps_button": "View on Google Maps",
     "items": [
-      { "name": "Texto pendiente de traducción" },
-      { "name": "Texto pendiente de traducción" },
-      { "name": "Texto pendiente de traducción" }
+      { "name": "Saúco Restaurant" },
+      { "name": "El Pescador" },
+      { "name": "Lupulo Esencia" }
     ]
   },
   "sports": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
-    "gmaps_button": "Texto pendiente de traducción",
+    "title": "Activities for Athletes",
+    "subtitle": "Stay active and enjoy the natural surroundings.",
+    "gmaps_button": "View on Google Maps",
     "items": [
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Hiking",
+        "description": "Explore the coastal and mountain trails with spectacular views."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Cycling",
+        "description": "Ride the panoramic roads of the island, a paradise for cyclists."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Golf",
+        "description": "Enjoy world-class golf courses with the ocean as a backdrop."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Surfing and Paddle Surfing",
+        "description": "Take advantage of the waves and calm waters for water sports."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Kayaking",
+        "description": "Paddle along the coast and discover sea caves and hidden coves."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Diving",
+        "description": "Immerse yourself in the crystal-clear waters and discover the rich marine life of Tenerife."
       }
     ]
   },
   "cta": {
-    "title": "Texto pendiente de traducción",
-    "description": "Texto pendiente de traducción",
-    "book_button": "Texto pendiente de traducción"
+    "title": "Ready for your getaway?",
+    "description": "Don't wait any longer to live the DioVista experience. The views of your dreams are waiting for you.",
+    "book_button": "Check availability on Booking.com"
   },
   "footer": {
-    "description": "Texto pendiente de traducción",
+    "description": "Your exclusive retreat in Alcalá, Tenerife. Enjoy unforgettable views and a luxury stay.",
     "contact": {
-      "title": "Texto pendiente de traducción",
-      "address": "Texto pendiente de traducción"
+      "title": "Contact",
+      "address": "Calle Garajonay 10, Alcalá, Spain"
     },
     "quick_links": {
-      "title": "Texto pendiente de traducción"
+      "title": "Quick links"
     },
-    "copyright": "Texto pendiente de traducción"
+    "copyright": "© {year} DioVista. All rights reserved."
   }
 }

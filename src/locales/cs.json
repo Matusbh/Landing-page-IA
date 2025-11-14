@@ -2,160 +2,160 @@
 {
   "header": {
     "nav": {
-      "interior": "Texto pendiente de traducción",
-      "services": "Texto pendiente de traducción",
-      "features": "Texto pendiente de traducción",
-      "zone": "Texto pendiente de traducción",
-      "restaurants": "Texto pendiente de traducción",
-      "sports": "Texto pendiente de traducción"
+      "interior": "Interiér",
+      "services": "Služby",
+      "features": "Vlastnosti",
+      "zone": "Oblast",
+      "restaurants": "Restaurace",
+      "sports": "Sporty"
     },
-    "book_button": "Texto pendiente de traducción",
+    "book_button": "Rezervovat",
     "theme_switcher": {
-      "label": "Texto pendiente de traducción",
-      "light": "Texto pendiente de traducción",
-      "dark": "Texto pendiente de traducción",
-      "system": "Texto pendiente de traducción"
+      "label": "Motiv",
+      "light": "Světlý",
+      "dark": "Tmavý",
+      "system": "Systém"
     },
     "language_switcher": {
-      "label": "Texto pendiente de traducción"
+      "label": "Jazyk"
     }
   },
   "hero": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
-    "book_button": "Texto pendiente de traducción"
+    "title": "Váš vysněný útěk v Alcalá",
+    "subtitle": "Užijte si úchvatné výhledy na moře a nezapomenutelné západy slunce z našeho exkluzivního penthousu.",
+    "book_button": "Rezervovat na Booking.com"
   },
   "valueProposition": {
-    "title": "Texto pendiente de traducción",
-    "description1": "Texto pendiente de traducción",
-    "description2": "Texto pendiente de traducción"
+    "title": "Nezapomenutelný komfort, nepřekonatelná poloha",
+    "description1": "Vítejte v DioVista, exkluzivním penthouse v srdci Alcalá, kde se luxus snoubí s klidem. Naše ubytování, navržené tak, aby nabízelo jedinečný zážitek, kombinuje moderní a útulný interiérový design s velkolepou terasou, která vám poskytne panoramatický výhled na oceán a dechberoucí západy slunce.",
+    "description2": "Každý detail byl pečlivě vybrán, aby byl zajištěn váš maximální komfort. Od plně vybavené kuchyně po pohodlné pokoje, vše je navrženo tak, abyste se cítili jako doma, ale s Atlantikem u nohou. Probuďte se za zvuku vln, snídejte pod tenerifským sluncem a zakončete den přípitkem ve svém soukromém ráji."
   },
   "gallery": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción"
+    "title": "Pohled dovnitř",
+    "subtitle": "Vizuální prohlídka místností a detailů, které činí náš penthouse jedinečným místem."
   },
   "services": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
+    "title": "Vlastnosti a služby",
+    "subtitle": "Vybavení, díky kterému se budete cítit jako doma.",
     "items": {
-      "wifi": "Texto pendiente de traducción",
-      "ac": "Texto pendiente de traducción",
-      "private_bathroom": "Texto pendiente de traducción",
-      "kitchen": "Texto pendiente de traducción",
-      "tv": "Texto pendiente de traducción",
-      "terrace": "Texto pendiente de traducción",
-      "washing_machine": "Texto pendiente de traducción",
-      "parking": "Texto pendiente de traducción",
-      "elevator": "Texto pendiente de traducción",
-      "bed_linen": "Texto pendiente de traducción",
-      "towels": "Texto pendiente de traducción",
-      "contactless_checkin": "Texto pendiente de traducción"
+      "wifi": "WiFi zdarma",
+      "ac": "Klimatizace",
+      "private_bathroom": "Vlastní koupelna",
+      "kitchen": "Plně vybavená kuchyň",
+      "tv": "Plochá TV",
+      "terrace": "Terasa s výhledem",
+      "washing_machine": "Pračka",
+      "parking": "Parkování v blízkosti",
+      "elevator": "Výtah",
+      "bed_linen": "Ložní prádlo",
+      "towels": "Ručníky",
+      "contactless_checkin": "Bezkontaktní check-in"
     }
   },
   "features": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
+    "title": "Proč si toto místo zamilujete",
+    "subtitle": "Vše, co potřebujete pro perfektní dovolenou.",
     "items": [
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Soukromá terasa",
+        "description": "Prostorný prostor pro slunění, večeři pod širým nebem nebo prostě jen relaxaci při pohledu na moře."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Perfektní poloha",
+        "description": "Pár kroků od pláže, přírodních bazénů, restaurací a obchodů. Všechno kouzlo Alcalá na dosah ruky."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Úchvatné výhledy",
+        "description": "Z terasy a obývacího pokoje si můžete užívat nerušený výhled na oceán a ostrov La Gomera."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Moderní komfort",
+        "description": "Kompletně zrekonstruovaný a vybavený všemi moderními vymoženostmi pro zajištění nezapomenutelného pobytu."
       }
     ]
   },
   "explore": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
-    "discover_button": "Texto pendiente de traducción",
+    "title": "Prozkoumejte okolí",
+    "subtitle": "Svět krásy a dobrodružství na dosah ruky.",
+    "discover_button": "Objevte více →",
     "items": [
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Kouzlo Alcalá",
+        "description": "Projděte se klidnými uličkami této autentické rybářské vesnice, objevte její náměstí a užijte si její uvolněnou atmosféru."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Pláž Alcalá",
+        "description": "Útulná pláž s černým pískem ideální pro osvěžující koupel, jen pár minut chůze od penthousu."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Okouzlující pobřeží",
+        "description": "Projděte se po promenádě, která spojuje několik přírodních bazénů se slanou vodou, ideálních pro celou rodinu."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Pláž Méndez",
+        "description": "Malá skrytá zátoka, ideální pro ty, kteří hledají klid a intimnější kontakt s mořem."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Dobrodružství za hranicemi",
+        "description": "Krátkou jízdou autem na vás čekají majestátní útesy Los Gigantes a Národní park Teide."
       }
     ]
   },
   "restaurants": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
-    "gmaps_button": "Texto pendiente de traducción",
+    "title": "Místní gastronomie",
+    "subtitle": "Ochutnejte to nejlepší z kanárské a mezinárodní kuchyně.",
+    "gmaps_button": "Zobrazit na Google Maps",
     "items": [
-      { "name": "Texto pendiente de traducción" },
-      { "name": "Texto pendiente de traducción" },
-      { "name": "Texto pendiente de traducción" }
+      { "name": "Restaurace Saúco" },
+      { "name": "El Pescador" },
+      { "name": "Lupulo Esencia" }
     ]
   },
   "sports": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
-    "gmaps_button": "Texto pendiente de traducción",
+    "title": "Aktivity pro sportovce",
+    "subtitle": "Zůstaňte aktivní a užívejte si přírodního prostředí.",
+    "gmaps_button": "Zobrazit na Google Maps",
     "items": [
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Pěší turistika",
+        "description": "Prozkoumejte pobřežní a horské stezky s úchvatnými výhledy."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Cyklistika",
+        "description": "Projeďte se panoramatickými silnicemi ostrova, rájem pro cyklisty."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Golf",
+        "description": "Užijte si golfová hřiště světové třídy s oceánem v pozadí."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Surfování a paddleboarding",
+        "description": "Využijte vlny a klidné vody pro vodní sporty."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Kajak",
+        "description": "Pádlujte podél pobřeží a objevujte mořské jeskyně a skryté zátoky."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Potápění",
+        "description": "Ponořte se do křišťálově čistých vod a objevte bohatý mořský život na Tenerife."
       }
     ]
   },
   "cta": {
-    "title": "Texto pendiente de traducción",
-    "description": "Texto pendiente de traducción",
-    "book_button": "Texto pendiente de traducción"
+    "title": "Jste připraveni na útěk?",
+    "description": "Nečekejte déle a prožijte zážitek DioVista. Výhledy vašich snů na vás čekají.",
+    "book_button": "Zkontrolovat dostupnost na Booking.com"
   },
   "footer": {
-    "description": "Texto pendiente de traducción",
+    "description": "Vaše exkluzivní útočiště v Alcalá na Tenerife. Užijte si nezapomenutelné výhledy a luxusní pobyt.",
     "contact": {
-      "title": "Texto pendiente de traducción",
-      "address": "Texto pendiente de traducción"
+      "title": "Kontakt",
+      "address": "Calle Garajonay 10, Alcalá, Španělsko"
     },
     "quick_links": {
-      "title": "Texto pendiente de traducción"
+      "title": "Rychlé odkazy"
     },
-    "copyright": "Texto pendiente de traducción"
+    "copyright": "© {year} DioVista. Všechna práva vyhrazena."
   }
 }

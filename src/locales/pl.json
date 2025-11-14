@@ -2,160 +2,160 @@
 {
   "header": {
     "nav": {
-      "interior": "Texto pendiente de traducción",
-      "services": "Texto pendiente de traducción",
-      "features": "Texto pendiente de traducción",
-      "zone": "Texto pendiente de traducción",
-      "restaurants": "Texto pendiente de traducción",
-      "sports": "Texto pendiente de traducción"
+      "interior": "Wnętrze",
+      "services": "Usługi",
+      "features": "Cechy",
+      "zone": "Okolica",
+      "restaurants": "Restauracje",
+      "sports": "Sport"
     },
-    "book_button": "Texto pendiente de traducción",
+    "book_button": "Rezerwuj teraz",
     "theme_switcher": {
-      "label": "Texto pendiente de traducción",
-      "light": "Texto pendiente de traducción",
-      "dark": "Texto pendiente de traducción",
-      "system": "Texto pendiente de traducción"
+      "label": "Motyw",
+      "light": "Jasny",
+      "dark": "Ciemny",
+      "system": "Systemowy"
     },
     "language_switcher": {
-      "label": "Texto pendiente de traducción"
+      "label": "Język"
     }
   },
   "hero": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
-    "book_button": "Texto pendiente de traducción"
+    "title": "Twój wymarzony wypoczynek w Alcalá",
+    "subtitle": "Ciesz się wspaniałymi widokami na morze i niezapomnianymi zachodami słońca z naszego ekskluzywnego apartamentu na ostatnim piętrze.",
+    "book_button": "Zarezerwuj na Booking.com"
   },
   "valueProposition": {
-    "title": "Texto pendiente de traducción",
-    "description1": "Texto pendiente de traducción",
-    "description2": "Texto pendiente de traducción"
+    "title": "Niezapomniany komfort, doskonała lokalizacja",
+    "description1": "Witamy w DioVista, ekskluzywnym apartamencie w sercu Alcalá, gdzie luksus spotyka się z spokojem. Zaprojektowany, aby zaoferować wyjątkowe wrażenia, nasz apartament łączy nowoczesne i przytulne wnętrze z spektakularnym tarasem, który zapewni Ci panoramiczne widoki na ocean i zachody słońca, które zapierają dech w piersiach.",
+    "description2": "Każdy szczegół został starannie dobrany, aby zapewnić maksymalny komfort. Od w pełni wyposażonej kuchni po wygodne sypialnie, wszystko jest zaprojektowane tak, abyś czuł się jak w domu, ale z Atlantykiem u stóp. Obudź się przy dźwiękach fal, zjedz śniadanie w słońcu Teneryfy i zakończ dzień toastem w swoim prywatnym raju."
   },
   "gallery": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción"
+    "title": "Spojrzenie do wnętrza",
+    "subtitle": "Wizualna wycieczka po pokojach i detalach, które czynią nasz apartament wyjątkowym miejscem."
   },
   "services": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
+    "title": "Udogodnienia i usługi",
+    "subtitle": "Wygody, dzięki którym poczujesz się jak w domu.",
     "items": {
-      "wifi": "Texto pendiente de traducción",
-      "ac": "Texto pendiente de traducción",
-      "private_bathroom": "Texto pendiente de traducción",
-      "kitchen": "Texto pendiente de traducción",
-      "tv": "Texto pendiente de traducción",
-      "terrace": "Texto pendiente de traducción",
-      "washing_machine": "Texto pendiente de traducción",
-      "parking": "Texto pendiente de traducción",
-      "elevator": "Texto pendiente de traducción",
-      "bed_linen": "Texto pendiente de traducción",
-      "towels": "Texto pendiente de traducción",
-      "contactless_checkin": "Texto pendiente de traducción"
+      "wifi": "Darmowe WiFi",
+      "ac": "Klimatyzacja",
+      "private_bathroom": "Prywatna łazienka",
+      "kitchen": "Pełna kuchnia",
+      "tv": "Telewizor z płaskim ekranem",
+      "terrace": "Taras z widokiem",
+      "washing_machine": "Pralka",
+      "parking": "Parking w pobliżu",
+      "elevator": "Winda",
+      "bed_linen": "Pościel",
+      "towels": "Ręczniki",
+      "contactless_checkin": "Zameldowanie bezkontaktowe"
     }
   },
   "features": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
+    "title": "Dlaczego pokochasz to miejsce",
+    "subtitle": "Wszystko, czego potrzebujesz na idealne wakacje.",
     "items": [
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Prywatny taras",
+        "description": "Przestronne miejsce do opalania, spożywania posiłków na świeżym powietrzu lub po prostu relaksu przy podziwianiu morza."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Idealna lokalizacja",
+        "description": "Zaledwie kilka kroków od plaży, naturalnych basenów, restauracji i sklepów. Cały urok Alcalá na wyciągnięcie ręki."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Spektakularne widoki",
+        "description": "Z tarasu i salonu można podziwiać niezakłócone widoki na ocean i wyspę La Gomera."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Nowoczesny komfort",
+        "description": "Całkowicie odnowiony i wyposażony we wszystkie nowoczesne udogodnienia, aby zapewnić niezapomniany pobyt."
       }
     ]
   },
   "explore": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
-    "discover_button": "Texto pendiente de traducción",
+    "title": "Odkryj okolicę",
+    "subtitle": "Świat piękna i przygód na wyciągnięcie ręki.",
+    "discover_button": "Odkryj więcej →",
     "items": [
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Urok Alcalá",
+        "description": "Spaceruj po cichych uliczkach tej autentycznej wioski rybackiej, odkryj jej plac i ciesz się jej zrelaksowaną atmosferą."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Plaża w Alcalá",
+        "description": "Przytulna plaża z czarnym piaskiem, idealna na orzeźwiającą kąpiel, zaledwie kilka minut spacerem od apartamentu."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Urokliwe wybrzeże",
+        "description": "Przejdź się promenadą, która łączy kilka naturalnych basenów ze słoną wodą, idealnych dla całej rodziny."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Plaża Méndez",
+        "description": "Mała, ukryta zatoczka, idealna dla tych, którzy szukają spokoju i bardziej intymnego kontaktu z morzem."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Przygody poza miastem",
+        "description": "W niewielkiej odległości samochodem czekają na Ciebie majestatyczne klify Los Gigantes i Park Narodowy Teide."
       }
     ]
   },
   "restaurants": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
-    "gmaps_button": "Texto pendiente de traducción",
+    "title": "Lokalna gastronomia",
+    "subtitle": "Skosztuj najlepszych dań kuchni kanaryjskiej i międzynarodowej.",
+    "gmaps_button": "Zobacz w Google Maps",
     "items": [
-      { "name": "Texto pendiente de traducción" },
-      { "name": "Texto pendiente de traducción" },
-      { "name": "Texto pendiente de traducción" }
+      { "name": "Restauracja Saúco" },
+      { "name": "El Pescador" },
+      { "name": "Lupulo Esencia" }
     ]
   },
   "sports": {
-    "title": "Texto pendiente de traducción",
-    "subtitle": "Texto pendiente de traducción",
-    "gmaps_button": "Texto pendiente de traducción",
+    "title": "Aktywności dla sportowców",
+    "subtitle": "Bądź aktywny i ciesz się naturalnym otoczeniem.",
+    "gmaps_button": "Zobacz w Google Maps",
     "items": [
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Wędrówki",
+        "description": "Odkrywaj szlaki przybrzeżne i górskie z spektakularnymi widokami."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Kolarstwo",
+        "description": "Przejedź się panoramicznymi drogami wyspy, rajem dla rowerzystów."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Golf",
+        "description": "Ciesz się polami golfowymi światowej klasy z oceanem w tle."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Surfing i Paddle Surf",
+        "description": "Wykorzystaj fale i spokojne wody do uprawiania sportów wodnych."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Kajakarstwo",
+        "description": "Płyń wzdłuż wybrzeża i odkrywaj jaskinie morskie i ukryte zatoczki."
       },
       {
-        "title": "Texto pendiente de traducción",
-        "description": "Texto pendiente de traducción"
+        "title": "Nurkowanie",
+        "description": "Zanurz się w krystalicznie czystych wodach i odkryj bogate życie morskie Teneryfy."
       }
     ]
   },
   "cta": {
-    "title": "Texto pendiente de traducción",
-    "description": "Texto pendiente de traducción",
-    "book_button": "Texto pendiente de traducción"
+    "title": "Gotowy na wypoczynek?",
+    "description": "Nie czekaj dłużej, aby przeżyć doświadczenie DioVista. Widoki Twoich marzeń czekają na Ciebie.",
+    "book_button": "Sprawdź dostępność na Booking.com"
   },
   "footer": {
-    "description": "Texto pendiente de traducción",
+    "description": "Twoje ekskluzywne schronienie w Alcalá na Teneryfie. Ciesz się niezapomnianymi widokami i luksusowym pobytem.",
     "contact": {
-      "title": "Texto pendiente de traducción",
-      "address": "Texto pendiente de traducción"
+      "title": "Kontakt",
+      "address": "Calle Garajonay 10, Alcalá, Hiszpania"
     },
     "quick_links": {
-      "title": "Texto pendiente de traducción"
+      "title": "Szybkie linki"
     },
-    "copyright": "Texto pendiente de traducción"
+    "copyright": "© {year} DioVista. Wszelkie prawa zastrzeżone."
   }
 }
