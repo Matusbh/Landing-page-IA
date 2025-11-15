@@ -29,7 +29,7 @@ export default function Footer({ dict, navDict }: { dict: Dictionary['footer'], 
             <h3 className="font-semibold tracking-wider uppercase">{dict.contact.title}</h3>
             <div className="space-y-2 text-muted-foreground">
               <p>{dict.contact.address}</p>
-              <a href="mailto:info@diovista.com" className="block hover:text-accent transition-colors">info@diovista.com</a>
+              <a href="mailto:diovista@gmail.com" className="block hover:text-accent transition-colors">diovista@gmail.com</a>
             </div>
           </div>
           
