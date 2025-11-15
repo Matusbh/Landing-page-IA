@@ -21,22 +21,22 @@ export default function Header({ dict, lang }: { dict: Dictionary['header'], lan
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
-        <div className="mr-4 hidden md:flex">
+        <div className="mr-auto md:mr-4">
           <Link href="#" className="flex items-center gap-2">
-            <Mountain className="h-6 w-6 text-primary" />
+            <Mountain className="h-6 w-6 text-accent" />
             <span className="font-bold font-headline">DioVista</span>
           </Link>
         </div>
         
-        <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
+        <nav className="hidden items-center gap-1 text-sm font-medium md:flex">
           {navItems.map((item) => (
-            <a key={item.href} href={item.href} className="transition-colors hover:text-primary/80 text-foreground/60">
+            <a key={item.href} href={item.href} className="px-3 py-2 rounded-md transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">
               {item.label}
             </a>
           ))}
         </nav>
 
-        <div className="flex flex-1 items-center justify-between gap-2 md:justify-end">
+        <div className="flex flex-1 items-center justify-end gap-2 md:ml-auto">
           <div className="md:hidden">
             <Sheet>
               <SheetTrigger asChild>
@@ -48,7 +48,7 @@ export default function Header({ dict, lang }: { dict: Dictionary['header'], lan
               <SheetContent side="left">
                 <div className="p-4">
                   <Link href="#" className="flex items-center gap-2 mb-8">
-                    <Mountain className="h-6 w-6 text-primary" />
+                    <Mountain className="h-6 w-6 text-accent" />
                     <span className="font-bold font-headline">DioVista</span>
                   </Link>
                   <nav className="grid gap-6 text-lg font-medium">
