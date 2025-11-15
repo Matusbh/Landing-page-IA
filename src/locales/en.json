@@ -107,8 +107,8 @@
     "gmaps_button": "View on Google Maps",
     "items": [
       { "name": "Saúco Restaurant" },
-      { "name": "El Pescador" },
-      { "name": "Lupulo Esencia" }
+      { "name": "Alcalá Center Cafeteria" },
+      { "name": "Muelle Viejo Restaurant" }
     ]
   },
   "sports": {
@@ -117,28 +117,28 @@
     "gmaps_button": "View on Google Maps",
     "items": [
       {
-        "title": "Seafront Promenade",
-        "description": "A perfect route for walking, running, or cycling by the sea."
+        "title": "Hiking",
+        "description": "Explore coastal and mountain trails with spectacular views."
       },
       {
-        "title": "Calisthenics Park",
-        "description": "Equipped area for outdoor training, ideal for strength and endurance exercises."
+        "title": "Cycling",
+        "description": "Ride the island's scenic roads, a paradise for cyclists."
       },
       {
-        "title": "Skatepark",
-        "description": "A modern skatepark for skateboard and rollerblade enthusiasts."
+        "title": "Golf",
+        "description": "Enjoy a round of golf at one of the nearby world-class courses."
       },
       {
-        "title": "Tennis",
-        "description": "Play a game of tennis on the local courts."
+        "title": "Surfing",
+        "description": "Catch the best waves on the beaches near Alcalá."
       },
       {
-        "title": "Basketball Courts",
-        "description": "Courts available for playing outdoor basketball games."
+        "title": "Kayaking and Paddleboarding",
+        "description": "Explore the coast from the water and discover hidden coves."
       },
       {
-        "title": "Volleyball Courts",
-        "description": "Play a game of beach volleyball while enjoying the sea breeze."
+        "title": "Diving",
+        "description": "Immerse yourself in the rich marine biodiversity of Tenerife."
       }
     ]
   },

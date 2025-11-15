@@ -107,8 +107,8 @@
     "gmaps_button": "Zobacz w Google Maps",
     "items": [
       { "name": "Restauracja Saúco" },
-      { "name": "El Pescador" },
-      { "name": "Lupulo Esencia" }
+      { "name": "Kawiarnia Alcalá Center" },
+      { "name": "Restauracja Muelle Viejo" }
     ]
   },
   "sports": {
@@ -117,28 +117,28 @@
     "gmaps_button": "Zobacz w Google Maps",
     "items": [
       {
-        "title": "Promenada nadmorska",
-        "description": "Idealna trasa do spacerów, biegania lub jazdy na rowerze nad morzem."
+        "title": "Wędrówki",
+        "description": "Odkrywaj nadmorskie i górskie szlaki z spektakularnymi widokami."
       },
       {
-        "title": "Park kalisteniczny",
-        "description": "Wyposażony teren do treningu na świeżym powietrzu, idealny do ćwiczeń siłowych i wytrzymałościowych."
+        "title": "Kolarstwo",
+        "description": "Przemierzaj malownicze drogi wyspy, raj dla rowerzystów."
       },
       {
-        "title": "Skatepark",
-        "description": "Nowoczesny skatepark dla miłośników deskorolek i rolek."
+        "title": "Golf",
+        "description": "Zagraj w golfa na jednym z pobliskich pól golfowych światowej klasy."
       },
       {
-        "title": "Tenis",
-        "description": "Zagraj w tenisa na lokalnych kortach."
+        "title": "Surfing",
+        "description": "Łap najlepsze fale na plażach w pobliżu Alcalá."
       },
       {
-        "title": "Boiska do koszykówki",
-        "description": "Dostępne boiska do gry w koszykówkę na świeżym powietrzu."
+        "title": "Kajakarstwo i paddleboarding",
+        "description": "Odkrywaj wybrzeże z wody i znajdź ukryte zatoczki."
       },
       {
-        "title": "Boiska do siatkówki",
-        "description": "Zagraj w siatkówkę plażową, ciesząc się morską bryzą."
+        "title": "Nurkowanie",
+        "description": "Zanurz się w bogatej morskiej bioróżnorodności Teneryfy."
       }
     ]
   },

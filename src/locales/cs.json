@@ -107,8 +107,8 @@
     "gmaps_button": "Zobrazit na Google Maps",
     "items": [
       { "name": "Restaurace Saúco" },
-      { "name": "El Pescador" },
-      { "name": "Lupulo Esencia" }
+      { "name": "Kavárna Alcalá Center" },
+      { "name": "Restaurace Muelle Viejo" }
     ]
   },
   "sports": {
@@ -117,28 +117,28 @@
     "gmaps_button": "Zobrazit na Google Maps",
     "items": [
       {
-        "title": "Přímořská promenáda",
-        "description": "Perfektní trasa pro chůzi, běh nebo jízdu na kole podél moře."
+        "title": "Pěší turistika",
+        "description": "Prozkoumejte pobřežní a horské stezky s nádhernými výhledy."
       },
       {
-        "title": "Kalistenický park",
-        "description": "Vybavený areál pro venkovní trénink, ideální pro silové a vytrvalostní cvičení."
+        "title": "Cyklistika",
+        "description": "Projeďte se po malebných silnicích ostrova, ráj pro cyklisty."
       },
       {
-        "title": "Skatepark",
-        "description": "Moderní skatepark pro milovníky skateboardingu a kolečkových bruslí."
+        "title": "Golf",
+        "description": "Zahrajte si golf na jednom z nedalekých hřišť světové úrovně."
       },
       {
-        "title": "Tenis",
-        "description": "Zahrajte si tenis na místních kurtech."
+        "title": "Surfování",
+        "description": "Chyťte nejlepší vlny na plážích poblíž Alcalá."
       },
       {
-        "title": "Basketbalová hřiště",
-        "description": "Hřiště k dispozici pro venkovní basketbalové zápasy."
+        "title": "Kajak a paddleboard",
+        "description": "Prozkoumejte pobřeží z vody a objevte skryté zátoky."
       },
       {
-        "title": "Volejbalová hřiště",
-        "description": "Zahrajte si plážový volejbal a užívejte si mořský vánek."
+        "title": "Potápění",
+        "description": "Ponořte se do bohaté mořské biodiverzity Tenerife."
       }
     ]
   },
