@@ -117,28 +117,28 @@
     "gmaps_button": "Zobrazit na Google Maps",
     "items": [
       {
-        "title": "Pěší turistika",
-        "description": "Prozkoumejte pobřežní a horské stezky s úchvatnými výhledy."
+        "title": "Přímořská promenáda",
+        "description": "Perfektní trasa pro chůzi, běh nebo jízdu na kole podél moře."
       },
       {
-        "title": "Cyklistika",
-        "description": "Projeďte se panoramatickými silnicemi ostrova, rájem pro cyklisty."
+        "title": "Kalistenický park",
+        "description": "Vybavený areál pro venkovní trénink, ideální pro silové a vytrvalostní cvičení."
       },
       {
-        "title": "Golf",
-        "description": "Užijte si golfová hřiště světové třídy s oceánem v pozadí."
+        "title": "Skatepark",
+        "description": "Moderní skatepark pro milovníky skateboardingu a kolečkových bruslí."
       },
       {
-        "title": "Surfování a paddleboarding",
-        "description": "Využijte vlny a klidné vody pro vodní sporty."
+        "title": "Tenis",
+        "description": "Zahrajte si tenis na místních kurtech."
       },
       {
-        "title": "Kajak",
-        "description": "Pádlujte podél pobřeží a objevujte mořské jeskyně a skryté zátoky."
+        "title": "Basketbalová hřiště",
+        "description": "Hřiště k dispozici pro venkovní basketbalové zápasy."
       },
       {
-        "title": "Potápění",
-        "description": "Ponořte se do křišťálově čistých vod a objevte bohatý mořský život na Tenerife."
+        "title": "Volejbalová hřiště",
+        "description": "Zahrajte si plážový volejbal a užívejte si mořský vánek."
       }
     ]
   },

@@ -117,28 +117,28 @@
     "gmaps_button": "View on Google Maps",
     "items": [
       {
-        "title": "Hiking",
-        "description": "Explore the coastal and mountain trails with spectacular views."
+        "title": "Seafront Promenade",
+        "description": "A perfect route for walking, running, or cycling by the sea."
       },
       {
-        "title": "Cycling",
-        "description": "Ride the panoramic roads of the island, a paradise for cyclists."
+        "title": "Calisthenics Park",
+        "description": "Equipped area for outdoor training, ideal for strength and endurance exercises."
       },
       {
-        "title": "Golf",
-        "description": "Enjoy world-class golf courses with the ocean as a backdrop."
+        "title": "Skatepark",
+        "description": "A modern skatepark for skateboard and rollerblade enthusiasts."
       },
       {
-        "title": "Surfing and Paddle Surfing",
-        "description": "Take advantage of the waves and calm waters for water sports."
+        "title": "Tennis",
+        "description": "Play a game of tennis on the local courts."
       },
       {
-        "title": "Kayaking",
-        "description": "Paddle along the coast and discover sea caves and hidden coves."
+        "title": "Basketball Courts",
+        "description": "Courts available for playing outdoor basketball games."
       },
       {
-        "title": "Diving",
-        "description": "Immerse yourself in the crystal-clear waters and discover the rich marine life of Tenerife."
+        "title": "Volleyball Courts",
+        "description": "Play a game of beach volleyball while enjoying the sea breeze."
       }
     ]
   },

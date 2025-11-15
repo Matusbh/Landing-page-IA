@@ -66,7 +66,7 @@
       },
       {
         "title": "Vistas Espectaculares",
-        "description": "Desde la terraza y el salón, podrás disfrutar de vistas ininterrumpidas del océano y la isla de La Gomera."
+        "description": "Desde la terraza, podrás disfrutar de vistas ininterrumpidas del océano y la isla de La Gomera."
       },
       {
         "title": "Comodidad Moderna",
@@ -107,8 +107,8 @@
     "gmaps_button": "Ver en Google Maps",
     "items": [
       { "name": "Restaurante Saúco" },
-      { "name": "El Pescador" },
-      { "name": "Lupulo Esencia" }
+      { "name": "Cafetería Alcalá Center" },
+      { "name": "Restaurante Muelle Viejo" }
     ]
   },
   "sports": {
@@ -117,28 +117,28 @@
     "gmaps_button": "Ver en Google Maps",
     "items": [
       {
-        "title": "Senderismo",
-        "description": "Explora los senderos costeros y de montaña con vistas espectaculares."
+        "title": "Paseo Marítimo",
+        "description": "Un recorrido perfecto para caminar, correr o montar en bicicleta junto al mar."
       },
       {
-        "title": "Ciclismo",
-        "description": "Recorre las carreteras panorámicas de la isla, un paraíso para los ciclistas."
+        "title": "Parque de calistenia",
+        "description": "Área equipada para entrenamiento al aire libre, ideal para ejercicios de fuerza y resistencia."
       },
       {
-        "title": "Golf",
-        "description": "Disfruta de campos de golf de clase mundial con el océano como telón de fondo."
+        "title": "Skatepark",
+        "description": "Un moderno skatepark para los amantes del monopatín y los patines."
       },
       {
-        "title": "Surf y Paddle Surf",
-        "description": "Aprovecha las olas y las aguas tranquilas para practicar deportes acuáticos."
+        "title": "Tenis",
+        "description": "Juega un partido de tenis en las pistas locales."
       },
       {
-        "title": "Kayak",
-        "description": "Rema por la costa y descubre cuevas marinas y calas escondidas."
+        "title": "Canchas de Baloncesto",
+        "description": "Canchas disponibles para jugar partidos de baloncesto al aire libre."
       },
       {
-        "title": "Buceo",
-        "description": "Sumérgete en las aguas cristalinas y descubre la rica vida marina de Tenerife."
+        "title": "Pistas de Voleibol",
+        "description": "Juega un partido de voleibol playa mientras disfrutas de la brisa marina."
       }
     ]
   },

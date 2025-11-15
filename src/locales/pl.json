@@ -117,28 +117,28 @@
     "gmaps_button": "Zobacz w Google Maps",
     "items": [
       {
-        "title": "Wędrówki",
-        "description": "Odkrywaj szlaki przybrzeżne i górskie z spektakularnymi widokami."
+        "title": "Promenada nadmorska",
+        "description": "Idealna trasa do spacerów, biegania lub jazdy na rowerze nad morzem."
       },
       {
-        "title": "Kolarstwo",
-        "description": "Przejedź się panoramicznymi drogami wyspy, rajem dla rowerzystów."
+        "title": "Park kalisteniczny",
+        "description": "Wyposażony teren do treningu na świeżym powietrzu, idealny do ćwiczeń siłowych i wytrzymałościowych."
       },
       {
-        "title": "Golf",
-        "description": "Ciesz się polami golfowymi światowej klasy z oceanem w tle."
+        "title": "Skatepark",
+        "description": "Nowoczesny skatepark dla miłośników deskorolek i rolek."
       },
       {
-        "title": "Surfing i Paddle Surf",
-        "description": "Wykorzystaj fale i spokojne wody do uprawiania sportów wodnych."
+        "title": "Tenis",
+        "description": "Zagraj w tenisa na lokalnych kortach."
       },
       {
-        "title": "Kajakarstwo",
-        "description": "Płyń wzdłuż wybrzeża i odkrywaj jaskinie morskie i ukryte zatoczki."
+        "title": "Boiska do koszykówki",
+        "description": "Dostępne boiska do gry w koszykówkę na świeżym powietrzu."
       },
       {
-        "title": "Nurkowanie",
-        "description": "Zanurz się w krystalicznie czystych wodach i odkryj bogate życie morskie Teneryfy."
+        "title": "Boiska do siatkówki",
+        "description": "Zagraj w siatkówkę plażową, ciesząc się morską bryzą."
       }
     ]
   },
