@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   description: 'Tu Escapada Soñada en Alcalá',
   icons: {
     icon: '/DV.webp',
+    shortcut: '/DV.webp',
+    apple: '/DV.webp',
   },
 };
 
