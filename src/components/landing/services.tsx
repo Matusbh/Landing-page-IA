@@ -1,6 +1,6 @@
 import * as React from 'react'
 import type { Dictionary } from '@/lib/dictionaries'
-import { Wifi, AirVent, ShowerHead, CookingPot, ScreenShare, Sun, WashingMachine, ParkingCircle, ArrowUpNarrowWide, BedDouble, Layers, KeyRound } from 'lucide-react'
+import { Wifi, AirVent, ShowerHead, CookingPot, Waves, Sun, WashingMachine, ParkingCircle, Mountain, BedDouble, Layers, KeyRound } from 'lucide-react'
 
 export default function Services({ dict }: { dict: Dictionary['services'] }) {
 
@@ -9,11 +9,11 @@ export default function Services({ dict }: { dict: Dictionary['services'] }) {
     { icon: <AirVent />, label: dict.items.ac },
     { icon: <ShowerHead />, label: dict.items.private_bathroom },
     { icon: <CookingPot />, label: dict.items.kitchen },
-    { icon: <ScreenShare />, label: dict.items.tv },
+    { icon: <Waves />, label: dict.items.sea_view },
     { icon: <Sun />, label: dict.items.terrace },
     { icon: <WashingMachine />, label: dict.items.washing_machine },
     { icon: <ParkingCircle />, label: dict.items.parking },
-    { icon: <ArrowUpNarrowWide />, label: dict.items.elevator },
+    { icon: <Mountain />, label: dict.items.mountain_view },
     { icon: <BedDouble />, label: dict.items.bed_linen },
     { icon: <Layers />, label: dict.items.towels },
     { icon: <KeyRound />, label: dict.items.contactless_checkin },
