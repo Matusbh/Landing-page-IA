@@ -6,7 +6,7 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
 import { format } from "date-fns"
-import { es } from 'date-fns/locale'
+import { es, enUS, cs, pl } from 'date-fns/locale'
 import { Calendar as CalendarIcon } from "lucide-react"
 import { DateRange } from "react-day-picker"
 
@@ -29,10 +29,18 @@ import {
 } from "@/components/ui/popover"
 import { toast } from "@/hooks/use-toast"
 import { sendBookingRequest } from "@/ai/flows/send-booking-request-flow"
-import type { Dictionary } from "@/lib/dictionaries"
+import type { Dictionary, Locale } from "@/lib/dictionaries"
+
+const locales: Record<Locale, Locale> = {
+  es,
+  en: enUS,
+  pl,
+  cs
+}
 
 type ContactFormProps = {
   dict: Dictionary['cta']['form']
+  lang: Locale
 }
 
 const formSchema = z.object({
@@ -45,7 +53,7 @@ const formSchema = z.object({
   }),
 })
 
-export function ContactForm({ dict }: ContactFormProps) {
+export function ContactForm({ dict, lang }: ContactFormProps) {
   const [isSubmitting, setIsSubmitting] = React.useState(false)
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -62,6 +70,7 @@ export function ContactForm({ dict }: ContactFormProps) {
       // Convert dates to string before sending
       const requestData = {
         ...values,
+        lang,
         dates: {
           from: values.dates.from.toISOString(),
           to: values.dates.to.toISOString(),
@@ -112,11 +121,11 @@ export function ContactForm({ dict }: ContactFormProps) {
                       {field.value?.from ? (
                         field.value.to ? (
                           <>
-                            {format(field.value.from, "LLL dd, y", { locale: es })} -{" "}
-                            {format(field.value.to, "LLL dd, y", { locale: es })}
+                            {format(field.value.from, "LLL dd, y", { locale: locales[lang] })} -{" "}
+                            {format(field.value.to, "LLL dd, y", { locale: locales[lang] })}
                           </>
                         ) : (
-                          format(field.value.from, "LLL dd, y", { locale: es })
+                          format(field.value.from, "LLL dd, y", { locale: locales[lang] })
                         )
                       ) : (
                         <span>{dict.date_placeholder}</span>

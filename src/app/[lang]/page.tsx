@@ -21,7 +21,7 @@ export default async function LandingPage({ params: { lang } }: { params: { lang
       <Explore dict={dict.explore} />
       <Restaurants dict={dict.restaurants} />
       <Sports dict={dict.sports} />
-      <Cta dict={dict.cta} />
+      <Cta dict={dict.cta} lang={lang} />
     </main>
   )
 }

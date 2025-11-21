@@ -1,7 +1,7 @@
-import type { Dictionary } from '@/lib/dictionaries'
+import type { Dictionary, Locale } from '@/lib/dictionaries'
 import { ContactForm } from './contact-form'
 
-export default function Cta({ dict }: { dict: Dictionary['cta'] }) {
+export default function Cta({ dict, lang }: { dict: Dictionary['cta'], lang: Locale }) {
   return (
     <section id="book" className="bg-accent/10 py-16 sm:py-24">
       <div className="container">
@@ -14,7 +14,7 @@ export default function Cta({ dict }: { dict: Dictionary['cta'] }) {
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-xl">
-          <ContactForm dict={dict.form} />
+          <ContactForm dict={dict.form} lang={lang} />
         </div>
       </div>
     </section>
