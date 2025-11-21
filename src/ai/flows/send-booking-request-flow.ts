@@ -1,3 +1,4 @@
+
 'use server';
 /**
  * @fileOverview Flow to send a booking request email.
@@ -14,8 +15,8 @@ const BookingRequestSchema = z.object({
   email: z.string().email().describe('The email address of the person making the request.'),
   guests: z.coerce.number().int().min(1).describe('The number of guests for the stay.'),
   dates: z.object({
-    from: z.coerce.date({ required_error: "La fecha de inicio es requerida." }),
-    to: z.coerce.date({ required_error: "La fecha de fin es requerida." }),
+    from: z.string().describe('The check-in date.'),
+    to: z.string().describe('The check-out date.'),
   }),
 });
 
@@ -44,8 +45,8 @@ const bookingRequestFlow = ai.defineFlow(
       - Nombre del solicitante: ${request.name}
       - Email de contacto: ${request.email}
       - Número de huéspedes: ${request.guests}
-      - Fecha de entrada: ${format(request.dates.from, 'PPP', { locale: (await import('date-fns/locale/es')).es })}
-      - Fecha de salida: ${format(request.dates.to, 'PPP', { locale: (await import('date-fns/locale/es')).es })}
+      - Fecha de entrada: ${format(new Date(request.dates.from), 'PPP', { locale: (await import('date-fns/locale/es')).es })}
+      - Fecha de salida: ${format(new Date(request.dates.to), 'PPP', { locale: (await import('date-fns/locale/es')).es })}
 
       Por favor, responda directamente al correo del solicitante para confirmar la disponibilidad y los próximos pasos.
     `;

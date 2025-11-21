@@ -1,3 +1,4 @@
+
 "use client"
 
 import * as React from "react"
@@ -58,7 +59,15 @@ export function ContactForm({ dict }: ContactFormProps) {
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsSubmitting(true)
     try {
-      await sendBookingRequest(values);
+      // Convert dates to string before sending
+      const requestData = {
+        ...values,
+        dates: {
+          from: values.dates.from.toISOString(),
+          to: values.dates.to.toISOString(),
+        }
+      };
+      await sendBookingRequest(requestData);
       toast({
         title: dict.success_title,
         description: dict.success_description,
