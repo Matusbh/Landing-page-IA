@@ -15,11 +15,13 @@ import {
   Dialog,
   DialogContent,
   DialogTitle,
+  DialogClose,
 } from "@/components/ui/dialog"
 import imageData from "@/app/lib/placeholder-images.json"
 import type { Dictionary } from "@/lib/dictionaries"
 import * as React from "react"
 import Autoplay from "embla-carousel-autoplay"
+import { X } from 'lucide-react'
 
 export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
   const plugin = React.useRef(
@@ -98,7 +100,7 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
       </div>
       
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="max-w-none w-screen h-screen sm:max-w-7xl sm:h-auto sm:w-full bg-transparent border-0 p-2 sm:p-4 flex items-center justify-center">
+        <DialogContent className="max-w-none w-screen h-screen sm:max-w-7xl sm:h-auto sm:w-full bg-black/80 border-0 p-2 sm:p-4 flex items-center justify-center">
             <DialogTitle className="sr-only">Image Gallery</DialogTitle>
             <Carousel 
                 setApi={setModalApi} 
@@ -122,6 +124,10 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
                 <CarouselPrevious className="absolute left-2 sm:-left-14 top-1/2 -translate-y-1/2 z-10" />
                 <CarouselNext className="absolute right-2 sm:-right-14 top-1/2 -translate-y-1/2 z-10" />
             </Carousel>
+             <DialogClose className="absolute right-4 top-4 rounded-full p-2 bg-white/80 text-foreground opacity-80 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground z-20">
+                <X className="h-6 w-6" />
+                <span className="sr-only">Close</span>
+            </DialogClose>
         </DialogContent>
       </Dialog>
     </section>
