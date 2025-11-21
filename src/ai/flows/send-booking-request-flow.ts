@@ -22,18 +22,18 @@ const BookingRequestSchema = z.object({
 
 export type BookingRequestInput = z.infer<typeof BookingRequestSchema>;
 
-export async function sendBookingRequest(input: BookingRequestInput): Promise<void> {
-  await bookingRequestFlow(input);
+export async function sendBookingRequest(input: BookingRequestInput): Promise<string> {
+  return await bookingRequestFlow(input);
 }
 
 // NOTE: This flow only generates the email content. Actually sending the email
 // requires an additional tool or service for sending emails, which is not
-// implemented here. The generated content is logged to the console for now.
+// implemented here. The generated content is returned for logging.
 const bookingRequestFlow = ai.defineFlow(
   {
     name: 'bookingRequestFlow',
     inputSchema: BookingRequestSchema,
-    outputSchema: z.void(),
+    outputSchema: z.string(),
   },
   async (request) => {
     // Generate the email content directly without calling the AI model.
@@ -53,18 +53,10 @@ const bookingRequestFlow = ai.defineFlow(
     
     const emailContent = `Subject: ${subject}\n\n${body}`;
 
-    // In a real application, you would use an email sending service (e.g., SendGrid, Resend)
-    // to send the generated content.
-    // For this example, we will just log the generated email to the console.
     console.log("--- Email para enviar a matusbehun03@gmial.com ---");
     console.log(emailContent);
     console.log("--- Fin del email ---");
 
-    // This is where you would call your email sending tool.
-    // await sendEmailTool({
-    //   to: 'matusbehun03@gmial.com',
-    //   subject: subject,
-    //   body: body,
-    // });
+    return emailContent;
   }
 );

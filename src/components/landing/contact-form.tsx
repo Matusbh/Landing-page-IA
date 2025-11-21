@@ -67,7 +67,11 @@ export function ContactForm({ dict }: ContactFormProps) {
           to: values.dates.to.toISOString(),
         }
       };
-      await sendBookingRequest(requestData);
+      const emailContent = await sendBookingRequest(requestData);
+      console.log("--- Contenido del correo generado ---");
+      console.log(emailContent);
+      console.log("--- Fin del contenido ---");
+      
       toast({
         title: dict.success_title,
         description: dict.success_description,
