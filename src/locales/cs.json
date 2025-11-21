@@ -10,7 +10,7 @@
       "sports": "Sporty",
       "booking": "Rezervace"
     },
-    "book_button": "Rezervovat",
+    "book_button": "Rezervovat Nyní",
     "theme_switcher": {
       "label": "Motiv",
       "light": "Světlý",
@@ -22,9 +22,9 @@
     }
   },
   "hero": {
-    "title": "Váš vysněný útěk v Alcalá",
+    "title": "Tvá vysněná dovolená v Alcalá",
     "subtitle": "Užijte si úchvatné výhledy na moře a nezapomenutelné západy slunce z našeho exkluzivního penthousu.",
-    "book_button": "Rezervovat"
+    "book_button": "Rezervovat Nyní"
   },
   "valueProposition": {
     "title": "Nezapomenutelný komfort, nepřekonatelná poloha",
