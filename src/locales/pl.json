@@ -145,7 +145,6 @@
   "cta": {
     "title": "Formularz rezerwacyjny",
     "description": "Wyślij nam swoje zapytanie, a wkrótce skontaktujemy się z Tobą w celu potwierdzenia dostępności.",
-    "book_button": "Wyślij zapytanie",
     "form": {
       "name": "Imię i nazwisko",
       "email": "Adres e-mail",
@@ -154,6 +153,7 @@
       "date_from": "Od",
       "date_to": "Do",
       "date_placeholder": "Wybierz zakres dat",
+      "book_button": "Wyślij zapytanie",
       "success_title": "Zapytanie wysłane!",
       "success_description": "Dziękujemy za zainteresowanie. Wkrótce się z Tobą skontaktujemy.",
       "error_title": "O nie! Coś poszło nie tak.",

@@ -145,7 +145,6 @@
   "cta": {
     "title": "Formulario de Reserva",
     "description": "Envíanos tu solicitud y te contactaremos a la brevedad para confirmar la disponibilidad.",
-    "book_button": "Enviar Solicitud",
     "form": {
       "name": "Nombre completo",
       "email": "Correo electrónico",
@@ -154,6 +153,7 @@
       "date_from": "Desde",
       "date_to": "Hasta",
       "date_placeholder": "Selecciona un rango de fechas",
+      "book_button": "Enviar Solicitud",
       "success_title": "¡Solicitud Enviada!",
       "success_description": "Gracias por tu interés. Nos pondremos en contacto contigo pronto.",
       "error_title": "¡Oh no! Algo salió mal.",

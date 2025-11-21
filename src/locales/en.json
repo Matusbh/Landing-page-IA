@@ -145,7 +145,6 @@
   "cta": {
     "title": "Booking Request Form",
     "description": "Send us your request, and we will contact you shortly to confirm availability.",
-    "book_button": "Send Request",
     "form": {
       "name": "Full name",
       "email": "Email address",
@@ -154,6 +153,7 @@
       "date_from": "From",
       "date_to": "To",
       "date_placeholder": "Select a date range",
+      "book_button": "Send Request",
       "success_title": "Request Sent!",
       "success_description": "Thank you for your interest. We will be in touch with you soon.",
       "error_title": "Uh oh! Something went wrong.",

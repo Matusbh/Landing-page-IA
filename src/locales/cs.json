@@ -145,7 +145,6 @@
   "cta": {
     "title": "Formulář pro rezervaci",
     "description": "Zašlete nám svůj požadavek a my vás budeme co nejdříve kontaktovat s potvrzením dostupnosti.",
-    "book_button": "Odeslat požadavek",
     "form": {
       "name": "Celé jméno",
       "email": "E-mailová adresa",
@@ -154,6 +153,7 @@
       "date_from": "Od",
       "date_to": "Do",
       "date_placeholder": "Vyberte rozsah dat",
+      "book_button": "Odeslat požadavek",
       "success_title": "Požadavek odeslán!",
       "success_description": "Děkujeme za váš zájem. Brzy se vám ozveme.",
       "error_title": "Jejda! Něco se pokazilo.",
