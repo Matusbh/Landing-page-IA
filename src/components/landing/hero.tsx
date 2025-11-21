@@ -49,7 +49,7 @@ export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
           {/* Right side: Image Collage */}
           <div className="hidden md:flex relative w-1/3 h-full items-center justify-center">
             <div
-              className="absolute top-1/4 right-0 w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-lg"
+              className="absolute top-1/4 right-0 w-56 h-56 rounded-full overflow-hidden border-4 border-white shadow-lg"
               data-ai-hint={collageImages[0].hint}
             >
               <Image
@@ -60,7 +60,7 @@ export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
               />
             </div>
             <div
-              className="absolute bottom-1/4 left-0 w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-lg"
+              className="absolute bottom-1/4 left-0 w-72 h-72 rounded-full overflow-hidden border-4 border-white shadow-lg"
               data-ai-hint={collageImages[1].hint}
             >
               <Image
@@ -71,7 +71,7 @@ export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
               />
             </div>
             <div
-              className="absolute bottom-1/2 right-1/4 w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-lg"
+              className="absolute bottom-1/3 right-1/4 w-40 h-40 rounded-full overflow-hidden border-4 border-white shadow-lg"
               data-ai-hint={collageImages[2].hint}
             >
               <Image
