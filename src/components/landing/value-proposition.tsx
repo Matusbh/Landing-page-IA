@@ -8,7 +8,11 @@ export default function ValueProposition({ dict }: { dict: Dictionary['valueProp
           <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">
             {dict.title}
           </h2>
-          <div className="mt-6 space-y-4 text-lg text-foreground/80">
+          <div className="mt-8">
+            <p className="font-script text-7xl text-accent">{dict.brand_name}</p>
+            <p className="text-xl font-headline uppercase tracking-widest text-muted-foreground">{dict.apartman_type}</p>
+          </div>
+          <div className="mt-8 space-y-4 text-lg text-foreground/80">
             <p>{dict.description1}</p>
             <p>{dict.description2}</p>
           </div>
