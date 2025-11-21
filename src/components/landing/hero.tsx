@@ -62,7 +62,7 @@ export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
             </div>
             {/* Círculo más grande */}
             <div
-              className="absolute bottom-1/4 left-5 w-72 h-72 rounded-full overflow-hidden border-4 border-white shadow-lg"
+              className="absolute bottom-1/4 left-1/4 w-72 h-72 rounded-full overflow-hidden border-4 border-white shadow-lg"
               data-ai-hint={collageImages[1].hint}
             >
               <Image
