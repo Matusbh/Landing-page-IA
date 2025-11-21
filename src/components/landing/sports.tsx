@@ -11,7 +11,7 @@ const sportsLinks = [
   "https://www.google.com/maps/place/Paseo+Higinia+Mendoza/@28.2027275,-16.8328728,973m/data=!3m2!1e3!4b1!4m6!3m5!1s0xc6a8d6060b46b9b:0x58931459e533577c!8m2!3d28.2027275!4d-16.8328728!16s%2Fg%2F11nxrzvsr7?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D",
   "https://www.google.com/maps/place/Campo+de+golf-+Golf+del+sur/@28.0331893,-16.65917,62339m/data=!3m1!1e3!4m6!3m5!1s0xc6a9f432f98ad6d:0xc78e4ca1299b24d4!8m2!3d28.0340842!4d-16.6094955!16s%2Fm%2F0cm96kz?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D",
   "https://www.google.com/maps/search/buceo+tenerife+sur/@28.0600251,-16.7575116,7790m/data=!3m2!1e3!4b1?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D",
-  "https://www.google.com/maps/search/surf+tenerife+sur/@28.2982257,-16.8892647,124370m/data=!3m2!1e3!4b1?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D"
+  "https://www.google.com/maps/place/Ika+Ika+Surf+Camp+%26+Surf+School+Tenerife/@28.0608962,-16.7364742,974m/data=!3m3!1e3!4b1!5s0xc6a977af21a73a5:0xd9aa08ae22e3428d!4m6!3m5!1s0xc6a977eae0c0af7:0x597f10b8a79ece5d!8m2!3d28.0608915!4d-16.7338993!16s%2Fg%2F12hks1j25?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D"
 ]
 
 export default function Sports({ dict }: { dict: Dictionary['sports'] }) {
