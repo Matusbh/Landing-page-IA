@@ -129,23 +129,36 @@
         "description": "Un moderno skatepark para los amantes del monopatín y los patines."
       },
       {
-        "title": "Tenis",
-        "description": "Juega un partido de tenis en las pistas locales."
+        "title": "Pistas de tenis",
+        "description": "Disfruta de un partido en las pistas de tenis locales."
       },
       {
-        "title": "Canchas de Baloncesto",
-        "description": "Canchas disponibles para jugar partidos de baloncesto al aire libre."
+        "title": "Canchas de baloncesto",
+        "description": "Echa unas canastas en las canchas de baloncesto al aire libre."
       },
       {
-        "title": "Pistas de Voleibol",
-        "description": "Juega un partido de voleibol playa mientras disfrutas de la brisa marina."
+        "title": "Voley playa",
+        "description": "Juega un partido de voley playa en la arena junto al mar."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para tu escapada?",
-    "description": "No esperes más para vivir la experiencia DioVista. Las vistas de tus sueños te están esperando.",
-    "book_button": "Ver disponibilidad en Booking.com"
+    "title": "Formulario de Reserva",
+    "description": "Envíanos tu solicitud y te contactaremos a la brevedad para confirmar la disponibilidad.",
+    "book_button": "Enviar Solicitud",
+    "form": {
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "guests": "Número de huéspedes",
+      "dates": "Fechas de estancia",
+      "date_from": "Desde",
+      "date_to": "Hasta",
+      "date_placeholder": "Selecciona un rango de fechas",
+      "success_title": "¡Solicitud Enviada!",
+      "success_description": "Gracias por tu interés. Nos pondremos en contacto contigo pronto.",
+      "error_title": "¡Oh no! Algo salió mal.",
+      "error_description": "No se pudo enviar tu solicitud. Por favor, inténtalo de nuevo más tarde."
+    }
   },
   "footer": {
     "description": "Tu refugio exclusivo en Alcalá, Tenerife. Disfruta de vistas inolvidables y una estancia de lujo.",

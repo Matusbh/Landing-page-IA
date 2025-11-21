@@ -129,23 +129,36 @@
         "description": "Moderní skatepark pro nadšence skateboardingu a kolečkových bruslí."
       },
       {
-        "title": "Tenis",
-        "description": "Zahrajte si tenis na místních kurtech."
+        "title": "Tenisové kurty",
+        "description": "Užijte si zápas na místních tenisových kurtech."
       },
       {
         "title": "Basketbalová hřiště",
-        "description": "Hřiště dostupná pro venkovní basketbalové zápasy."
+        "description": "Zahrajte si pár košů na venkovních basketbalových hřištích."
       },
       {
-        "title": "Volejbalová hřiště",
-        "description": "Zahrajte si plážový volejbal a užijte si mořský vánek."
+        "title": "Plážový volejbal",
+        "description": "Zahrajte si plážový volejbal na písku u moře."
       }
     ]
   },
   "cta": {
-    "title": "Jste připraveni na útěk?",
-    "description": "Nečekejte déle a prožijte zážitek DioVista. Výhledy vašich snů na vás čekají.",
-    "book_button": "Zkontrolovat dostupnost na Booking.com"
+    "title": "Formulář pro rezervaci",
+    "description": "Zašlete nám svůj požadavek a my vás budeme co nejdříve kontaktovat s potvrzením dostupnosti.",
+    "book_button": "Odeslat požadavek",
+    "form": {
+      "name": "Celé jméno",
+      "email": "E-mailová adresa",
+      "guests": "Počet hostů",
+      "dates": "Data pobytu",
+      "date_from": "Od",
+      "date_to": "Do",
+      "date_placeholder": "Vyberte rozsah dat",
+      "success_title": "Požadavek odeslán!",
+      "success_description": "Děkujeme za váš zájem. Brzy se vám ozveme.",
+      "error_title": "Jejda! Něco se pokazilo.",
+      "error_description": "Váš požadavek se nepodařilo odeslat. Zkuste to prosím později."
+    }
   },
   "footer": {
     "description": "Vaše exkluzivní útočiště v Alcalá na Tenerife. Užijte si nezapomenutelné výhledy a luxusní pobyt.",

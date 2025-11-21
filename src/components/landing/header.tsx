@@ -1,8 +1,7 @@
 import Link from 'next/link'
 import { Mountain, Menu } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
-import { BOOKING_URL } from '@/lib/constants'
+import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet'
 import { ThemeSwitcher } from './theme-switcher'
 import { LanguageSwitcher } from './language-switcher'
 import type { Dictionary, Locale } from '@/lib/dictionaries'
@@ -46,6 +45,10 @@ export default function Header({ dict, lang }: { dict: Dictionary['header'], lan
                 </Button>
               </SheetTrigger>
               <SheetContent side="left">
+                <SheetHeader className="sr-only">
+                  <SheetTitle>Menu</SheetTitle>
+                  <SheetDescription>Main navigation and options</SheetDescription>
+                </SheetHeader>
                 <div className="p-4">
                   <Link href="#" className="flex items-center gap-2 mb-8">
                     <Mountain className="h-6 w-6 text-accent" />
@@ -62,7 +65,7 @@ export default function Header({ dict, lang }: { dict: Dictionary['header'], lan
                     <LanguageSwitcher lang={lang} dict={dict.language_switcher} />
                     <ThemeSwitcher dict={dict.theme_switcher} />
                     <Button asChild>
-                      <Link href={BOOKING_URL} target="_blank" rel="noopener noreferrer">{dict.book_button}</Link>
+                      <Link href="#book">{dict.book_button}</Link>
                     </Button>
                   </div>
                 </div>
@@ -74,7 +77,7 @@ export default function Header({ dict, lang }: { dict: Dictionary['header'], lan
             <LanguageSwitcher lang={lang} dict={dict.language_switcher} />
             <ThemeSwitcher dict={dict.theme_switcher} />
             <Button asChild>
-              <Link href={BOOKING_URL} target="_blank" rel="noopener noreferrer">{dict.book_button}</Link>
+              <Link href="#book">{dict.book_button}</Link>
             </Button>
           </div>
         </div>

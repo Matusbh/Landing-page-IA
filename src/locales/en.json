@@ -129,23 +129,36 @@
         "description": "A modern skatepark for skateboard and rollerblade enthusiasts."
       },
       {
-        "title": "Tennis",
-        "description": "Play a game of tennis on the local courts."
+        "title": "Tennis Courts",
+        "description": "Enjoy a match at the local tennis courts."
       },
       {
         "title": "Basketball Courts",
-        "description": "Courts available for playing outdoor basketball games."
+        "description": "Shoot some hoops at the outdoor basketball courts."
       },
       {
-        "title": "Volleyball Courts",
-        "description": "Play a game of beach volleyball while enjoying the sea breeze."
+        "title": "Beach Volleyball",
+        "description": "Play a game of beach volleyball in the sand by the sea."
       }
     ]
   },
   "cta": {
-    "title": "Ready for your getaway?",
-    "description": "Don't wait any longer to live the DioVista experience. The views of your dreams are waiting for you.",
-    "book_button": "Check availability on Booking.com"
+    "title": "Booking Request Form",
+    "description": "Send us your request, and we will contact you shortly to confirm availability.",
+    "book_button": "Send Request",
+    "form": {
+      "name": "Full name",
+      "email": "Email address",
+      "guests": "Number of guests",
+      "dates": "Dates of stay",
+      "date_from": "From",
+      "date_to": "To",
+      "date_placeholder": "Select a date range",
+      "success_title": "Request Sent!",
+      "success_description": "Thank you for your interest. We will be in touch with you soon.",
+      "error_title": "Uh oh! Something went wrong.",
+      "error_description": "Could not send your request. Please try again later."
+    }
   },
   "footer": {
     "description": "Your exclusive retreat in Alcalá, Tenerife. Enjoy unforgettable views and a luxury stay.",
