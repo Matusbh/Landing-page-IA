@@ -6,12 +6,12 @@ import Image from 'next/image'
 import imageData from '@/app/lib/placeholder-images.json'
 
 const sportsLinks = [
-  "https://www.google.com/maps/place/Zona+de+juego+en+arena.+Beach+volley/@28.2021612,-16.8320166,122m/data=!3m1!1e3!4m14!1m7!3m6!1s0xc6a8d3208ff53ab:0x4b14f1cb2809acba!2sParque+calistenia+Alcal%C3%A1!8m2!3d28.2025471!4d-16.8321232!16s%2Fg%2F11t6jmkl9j!3m5!1s0xc6a8d8af3671f0b:0x57adfa935c634d78!8m2!3d28.2023327!4d-16.832143!16s%2Fg%2F11q7zdmvyz?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D",
-  "https://www.google.com/maps/place/Zona+de+juego+en+arena.+Beach+volley/@28.2022474,-16.8319708,122m/data=!3m1!1e3!4m15!1m8!3m7!1s0xc6a8ddd3dacea59:0x624d2168adb13fa0!2sAlcal%C3%A1,+Santa+Cruz+de+Tenerife!3b1!8m2!3d28.2021526!4d-16.8274248!16s%2Fg%2F1230jtgv!3m5!1s0xc6a8d8af3671f0b:0x57adfa935c634d78!8m2!3d28.2023327!4d-16.832143!16s%2Fg%2F11q7zdmvyz?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D",
   "https://www.google.com/maps/place/Paseo+Higinia+Mendoza/@28.2027275,-16.8328728,973m/data=!3m2!1e3!4b1!4m6!3m5!1s0xc6a8d6060b46b9b:0x58931459e533577c!8m2!3d28.2027275!4d-16.8328728!16s%2Fg%2F11nxrzvsr7?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D",
+  "https://www.google.com/maps/search/surf+tenerife+sur/@28.0599793,-16.7420619,1948m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D",
   "https://www.google.com/maps/place/Campo+de+golf-+Golf+del+sur/@28.0331893,-16.65917,62339m/data=!3m1!1e3!4m6!3m5!1s0xc6a9f432f98ad6d:0xc78e4ca1299b24d4!8m2!3d28.0340842!4d-16.6094955!16s%2Fm%2F0cm96kz?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D",
-  "https://www.google.com/maps/place/Parque+calistenia+Alcal%C3%A1/@28.2025471,-16.8321232,973m/data=!3m2!1e3!4b1!4m6!3m5!1s0xc6a8d3208ff53ab:0x4b14f1cb2809acba!8m2!3d28.2025471!4d-16.8321232!16s%2Fg%2F11t6jmkl9j?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D",
-  "https://www.google.com/maps/place/Skatepark+Alcal%C3%A1/@28.2024486,-16.8329057,973m/data=!3m2!1e3!4b1!4m6!3m5!1s0xc6a8d933bdab4d9:0x46f544562d8d12fe!8m2!3d28.2024486!4d-16.8329057!16s%2Fg%2F11p3h9ydjk?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D"
+  "https://www.google.com/maps/search/tenis+alcala+tenerife/@28.2038753,-16.8285514,973m/data=!3m1!1e3?entry=ttu",
+  "https://www.google.com/maps/search/buceo+alcala+tenerife/@28.2015096,-16.832049,973m/data=!3m1!1e3?entry=ttu",
+  "https://www.google.com/maps/place/Zona+de+juego+en+arena.+Beach+volley/@28.2023327,-16.832143,122m/data=!3m1!1e3!4m10!1m2!2m1!1svoley+playa+alcala!3m6!1s0xc6a8d8af3671f0b:0x57adfa935c634d78!8m2!3d28.2023327!4d-16.832143!15sChR2b2xleSBwbGF5YSBhbGNhbGHgAQFaFiIUdm9sZXkgcGxheWEgYWxjYWxhkgELYmVhY2hfcGFya2mgAQA!16s%2Fg%2F11q7zdmvyz?entry=ttu"
 ]
 
 export default function Sports({ dict }: { dict: Dictionary['sports'] }) {
