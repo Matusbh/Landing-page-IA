@@ -15,5 +15,12 @@ export function useIsMobile() {
     return () => mql.removeEventListener("change", onChange)
   }, [])
 
-  return !!isMobile
+  // On the server, we don't know if it's mobile or not.
+  // We can default to false, which means we'll render the desktop version first.
+  // This might cause a flicker on mobile, but it's better than rendering the mobile version on desktop.
+  if (isMobile === undefined) {
+    return false;
+  }
+
+  return isMobile
 }
