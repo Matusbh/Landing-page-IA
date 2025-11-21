@@ -35,41 +35,37 @@ const bookingRequestFlow = ai.defineFlow(
     outputSchema: z.void(),
   },
   async (request) => {
-    const prompt = `
-      You are an assistant responsible for creating booking request emails.
-      Generate a professional and friendly email to the apartment manager at 'diovista@gmail.com'.
+    // Generate the email content directly without calling the AI model.
+    const subject = "Nueva Solicitud de Reserva para DioVista";
+    const body = `
+      Ha recibido una nueva solicitud de reserva.
 
-      The email must be in Spanish.
-
-      The subject of the email should be: "Nueva Solicitud de Reserva para DioVista".
-
-      The body of the email must include the following details clearly formatted:
+      Detalles de la solicitud:
       - Nombre del solicitante: ${request.name}
       - Email de contacto: ${request.email}
       - Número de huéspedes: ${request.guests}
-      - Fecha de entrada: ${format(request.dates.from, 'PPP')}
-      - Fecha de salida: ${format(request.dates.to, 'PPP')}
+      - Fecha de entrada: ${format(request.dates.from, 'PPP', { locale: (await import('date-fns/locale/es')).es })}
+      - Fecha de salida: ${format(request.dates.to, 'PPP', { locale: (await import('date-fns/locale/es')).es })}
 
-      Conclude the email with a polite closing, suggesting the manager reply to the user's email to confirm availability and next steps.
+      Por favor, responda directamente al correo del solicitante para confirmar la disponibilidad y los próximos pasos.
     `;
-
-    const { output } = await ai.generate({
-      prompt: prompt,
-      model: 'googleai/gemini-2.5-flash',
-    });
     
+    const emailContent = `Subject: ${subject}\n\n${body}`;
+
     // In a real application, you would use an email sending service (e.g., SendGrid, Resend)
-    // with a Genkit tool to send the generated `output`.
+    // to send the generated content.
     // For this example, we will just log the generated email to the console.
-    console.log("--- Email para enviar ---");
-    console.log(output);
+    console.log("--- Email para enviar a diovista@gmail.com ---");
+    console.log(emailContent);
     console.log("--- Fin del email ---");
 
     // This is where you would call your email sending tool.
     // await sendEmailTool({
     //   to: 'diovista@gmail.com',
-    //   subject: 'Nueva Solicitud de Reserva para DioVista',
-    //   body: output,
+    //   subject: subject,
+    //   body: body,
     // });
   }
 );
+
+    
