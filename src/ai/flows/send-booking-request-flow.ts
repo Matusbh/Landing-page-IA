@@ -6,7 +6,7 @@
  * - BookingRequestInput: The input type for the sendBookingRequest function.
  */
 import { ai } from '@/ai/genkit';
-import { z } from 'genkit';
+import { z } from 'zod';
 import { format } from 'date-fns';
 
 const BookingRequestSchema = z.object({
@@ -14,8 +14,8 @@ const BookingRequestSchema = z.object({
   email: z.string().email().describe('The email address of the person making the request.'),
   guests: z.coerce.number().int().min(1).describe('The number of guests for the stay.'),
   dates: z.object({
-    from: z.date().describe('The check-in date.'),
-    to: z.date().describe('The check-out date.'),
+    from: z.coerce.date({ required_error: "La fecha de inicio es requerida." }),
+    to: z.coerce.date({ required_error: "La fecha de fin es requerida." }),
   }),
 });
 
