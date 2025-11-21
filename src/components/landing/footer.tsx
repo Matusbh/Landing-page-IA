@@ -2,7 +2,6 @@
 import type { Dictionary } from '@/lib/dictionaries'
 import Link from 'next/link'
 import { Mountain } from 'lucide-react'
-import { BOOKING_URL } from '@/lib/constants'
 
 export default function Footer({ dict, navDict }: { dict: Dictionary['footer'], navDict: Dictionary['header']['nav'] }) {
   const year = new Date().getFullYear();
@@ -30,6 +29,7 @@ export default function Footer({ dict, navDict }: { dict: Dictionary['footer'], 
             <div className="space-y-2 text-muted-foreground">
               <p>{dict.contact.address}</p>
               <a href="mailto:diovista@gmail.com" className="block hover:text-accent transition-colors">diovista@gmail.com</a>
+              <p>{dict.contact.phone}</p>
             </div>
           </div>
           
@@ -42,7 +42,7 @@ export default function Footer({ dict, navDict }: { dict: Dictionary['footer'], 
                 </li>
               ))}
               <li>
-                <Link href={BOOKING_URL} className="text-muted-foreground hover:text-accent transition-colors">{dict.quick_links.booking}</Link>
+                <Link href="#book" className="text-muted-foreground hover:text-accent transition-colors">{dict.quick_links.booking}</Link>
               </li>
             </ul>
           </div>

@@ -165,7 +165,8 @@
     "description": "Tu refugio exclusivo en Alcalá, Tenerife. Disfruta de vistas inolvidables y una estancia de lujo.",
     "contact": {
       "title": "Contacto",
-      "address": "Calle Garajonay 10, Alcalá, España"
+      "address": "Calle Garajonay 10, Alcalá, España",
+      "phone": "Teléfono: 123456789"
     },
     "quick_links": {
       "title": "Enlaces rápidos",

@@ -165,7 +165,8 @@
     "description": "Your exclusive retreat in Alcalá, Tenerife. Enjoy unforgettable views and a luxury stay.",
     "contact": {
       "title": "Contact",
-      "address": "Calle Garajonay 10, Alcalá, Spain"
+      "address": "Calle Garajonay 10, Alcalá, Spain",
+      "phone": "Phone: 123456789"
     },
     "quick_links": {
       "title": "Quick links",
