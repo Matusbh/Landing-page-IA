@@ -144,7 +144,7 @@
   },
   "cta": {
     "title": "Booking Request Form",
-    "description": "Send us your request, and we will contact you shortly to confirm availability.",
+    "description": "The price per night is €120. Send us your request, and we will contact you shortly to confirm availability. If you prefer to contact by phone, you can call 123456789.",
     "form": {
       "name": "Full name",
       "email": "Email address",

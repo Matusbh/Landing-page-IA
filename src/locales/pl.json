@@ -144,7 +144,7 @@
   },
   "cta": {
     "title": "Formularz rezerwacyjny",
-    "description": "Wyślij nam swoje zapytanie, a wkrótce skontaktujemy się z Tobą w celu potwierdzenia dostępności.",
+    "description": "Cena za noc wynosi 120 €. Wyślij nam swoje zapytanie, a wkrótce skontaktujemy się z Tobą w celu potwierdzenia dostępności. Jeśli wolisz kontakt telefoniczny, zadzwoń pod numer 123456789.",
     "form": {
       "name": "Imię i nazwisko",
       "email": "Adres e-mail",

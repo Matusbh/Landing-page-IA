@@ -144,7 +144,7 @@
   },
   "cta": {
     "title": "Formulario de Reserva",
-    "description": "Envíanos tu solicitud y te contactaremos a la brevedad para confirmar la disponibilidad.",
+    "description": "El precio por noche es de 120€. Envíanos tu solicitud y te contactaremos a la brevedad para confirmar la disponibilidad. Si prefieres contactar por teléfono, puedes llamar al 123456789.",
     "form": {
       "name": "Nombre completo",
       "email": "Correo electrónico",
