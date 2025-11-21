@@ -28,7 +28,7 @@ export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
           </p>
           <div className="mt-10">
             <Button asChild size="lg">
-              <Link href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
+              <Link href={BOOKING_URL}>
                 {dict.book_button}
               </Link>
             </Button>

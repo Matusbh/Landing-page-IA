@@ -7,7 +7,8 @@
       "features": "Características",
       "zone": "Zona",
       "restaurants": "Restaurantes",
-      "sports": "Deportes"
+      "sports": "Deportes",
+      "booking": "Reservas"
     },
     "book_button": "Reservar Ahora",
     "theme_switcher": {
@@ -23,7 +24,7 @@
   "hero": {
     "title": "Tu Escapada Soñada en Alcalá",
     "subtitle": "Disfruta de impresionantes vistas al mar y atardeceres inolvidables desde nuestro exclusivo ático.",
-    "book_button": "Reservar en Booking.com"
+    "book_button": "Reservar Ahora"
   },
   "valueProposition": {
     "title": "Comodidad Inolvidable, Ubicación Inmejorable",

@@ -42,7 +42,7 @@ export default function Footer({ dict, navDict }: { dict: Dictionary['footer'], 
                 </li>
               ))}
               <li>
-                <Link href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">{dict.quick_links.booking}</Link>
+                <Link href={BOOKING_URL} className="text-muted-foreground hover:text-accent transition-colors">{dict.quick_links.booking}</Link>
               </li>
             </ul>
           </div>

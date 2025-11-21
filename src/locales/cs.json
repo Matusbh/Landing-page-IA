@@ -7,7 +7,8 @@
       "features": "Vlastnosti",
       "zone": "Oblast",
       "restaurants": "Restaurace",
-      "sports": "Sporty"
+      "sports": "Sporty",
+      "booking": "Rezervace"
     },
     "book_button": "Rezervovat",
     "theme_switcher": {
@@ -23,7 +24,7 @@
   "hero": {
     "title": "Váš vysněný útěk v Alcalá",
     "subtitle": "Užijte si úchvatné výhledy na moře a nezapomenutelné západy slunce z našeho exkluzivního penthousu.",
-    "book_button": "Rezervovat na Booking.com"
+    "book_button": "Rezervovat"
   },
   "valueProposition": {
     "title": "Nezapomenutelný komfort, nepřekonatelná poloha",

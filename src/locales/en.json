@@ -7,7 +7,8 @@
       "features": "Features",
       "zone": "Area",
       "restaurants": "Restaurants",
-      "sports": "Sports"
+      "sports": "Sports",
+      "booking": "Booking"
     },
     "book_button": "Book Now",
     "theme_switcher": {
@@ -23,7 +24,7 @@
   "hero": {
     "title": "Your Dream Getaway in Alcalá",
     "subtitle": "Enjoy stunning sea views and unforgettable sunsets from our exclusive penthouse.",
-    "book_button": "Book on Booking.com"
+    "book_button": "Book Now"
   },
   "valueProposition": {
     "title": "Unforgettable Comfort, Unbeatable Location",

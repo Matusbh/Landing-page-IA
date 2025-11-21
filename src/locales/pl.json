@@ -7,7 +7,8 @@
       "features": "Cechy",
       "zone": "Okolica",
       "restaurants": "Restauracje",
-      "sports": "Sport"
+      "sports": "Sport",
+      "booking": "Rezerwacja"
     },
     "book_button": "Rezerwuj teraz",
     "theme_switcher": {
@@ -23,7 +24,7 @@
   "hero": {
     "title": "Twój wymarzony wypoczynek w Alcalá",
     "subtitle": "Ciesz się wspaniałymi widokami na morze i niezapomnianymi zachodami słońca z naszego ekskluzywnego apartamentu na ostatnim piętrze.",
-    "book_button": "Zarezerwuj na Booking.com"
+    "book_button": "Rezerwuj teraz"
   },
   "valueProposition": {
     "title": "Niezapomniany komfort, doskonała lokalizacja",

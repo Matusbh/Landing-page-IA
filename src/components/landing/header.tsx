@@ -15,6 +15,7 @@ export default function Header({ dict, lang }: { dict: Dictionary['header'], lan
     { label: dict.nav.zone, href: '#explore' },
     { label: dict.nav.restaurants, href: '#restaurants' },
     { label: dict.nav.sports, href: '#sports' },
+    { label: dict.nav.booking, href: '#book' },
   ]
 
   return (
