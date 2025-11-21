@@ -48,6 +48,7 @@ export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
 
           {/* Right side: Image Collage */}
           <div className="hidden md:flex relative w-1/3 h-full items-center justify-center">
+            {/* Círculo mediano */}
             <div
               className="absolute top-1/4 right-0 w-56 h-56 rounded-full overflow-hidden border-4 border-white shadow-lg"
               data-ai-hint={collageImages[0].hint}
@@ -59,6 +60,7 @@ export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
                 className="object-cover"
               />
             </div>
+            {/* Círculo más grande */}
             <div
               className="absolute bottom-1/4 left-0 w-72 h-72 rounded-full overflow-hidden border-4 border-white shadow-lg"
               data-ai-hint={collageImages[1].hint}
@@ -70,6 +72,7 @@ export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
                 className="object-cover"
               />
             </div>
+            {/* Círculo más pequeño */}
             <div
               className="absolute bottom-1/3 right-1/4 w-40 h-40 rounded-full overflow-hidden border-4 border-white shadow-lg"
               data-ai-hint={collageImages[2].hint}
