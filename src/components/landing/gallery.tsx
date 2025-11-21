@@ -38,11 +38,10 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
 
   const onThumbClick = React.useCallback(
     (index: number) => {
-      if (!api || !isMobile) return
       setSelectedIndex(index)
       setOpen(true)
     },
-    [api, isMobile]
+    []
   )
   
   React.useEffect(() => {
@@ -78,7 +77,7 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
           >
             <CarouselContent>
               {imageData.gallery.map((image, index) => (
-                <CarouselItem key={image.id} onClick={() => onThumbClick(index)} className={cn(isMobile ? "cursor-pointer" : "")}>
+                <CarouselItem key={image.id} onClick={() => onThumbClick(index)} className="cursor-pointer">
                   <Card className="overflow-hidden">
                     <CardContent className="flex aspect-[16/10] items-center justify-center p-0">
                       <div className="relative h-full w-full">
@@ -112,7 +111,7 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
             >
                 <CarouselContent className="h-full">
                 {imageData.gallery.map((image) => (
-                    <CarouselItem key={`modal-${image.id}`} className="flex items-center justify-center h-full">
+                    <CarouselItem key={`modal-${image.id}`} className="flex items-end justify-center h-full pb-12">
                         <div className="relative w-full h-full max-h-[80vh] aspect-[16/10]">
                             <Image
                             src={image.src}
