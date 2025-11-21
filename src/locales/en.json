@@ -22,8 +22,9 @@
     }
   },
   "hero": {
-    "title": "Your Dream Getaway in Alcalá",
-    "subtitle": "Enjoy stunning sea views and unforgettable sunsets from our exclusive penthouse.",
+    "title_line1": "ALCALÁ",
+    "title_line2": "TENERIFE",
+    "title_line3": "Spain",
     "book_button": "Book Now"
   },
   "valueProposition": {

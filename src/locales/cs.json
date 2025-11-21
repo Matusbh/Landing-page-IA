@@ -22,8 +22,9 @@
     }
   },
   "hero": {
-    "title": "Tvá vysněná dovolená v Alcalá",
-    "subtitle": "Užijte si úchvatné výhledy na moře a nezapomenutelné západy slunce z našeho exkluzivního penthousu.",
+    "title_line1": "ALCALÁ",
+    "title_line2": "TENERIFE",
+    "title_line3": "Španělsko",
     "book_button": "Rezervovat Nyní"
   },
   "valueProposition": {

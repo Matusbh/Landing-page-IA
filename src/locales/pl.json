@@ -22,8 +22,9 @@
     }
   },
   "hero": {
-    "title": "Twój wymarzony wypoczynek w Alcalá",
-    "subtitle": "Ciesz się wspaniałymi widokami na morze i niezapomnianymi zachodami słońca z naszego ekskluzywnego apartamentu na ostatnim piętrze.",
+    "title_line1": "ALCALÁ",
+    "title_line2": "TENERYFA",
+    "title_line3": "Hiszpania",
     "book_button": "Rezerwuj teraz"
   },
   "valueProposition": {

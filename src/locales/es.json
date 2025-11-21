@@ -22,8 +22,9 @@
     }
   },
   "hero": {
-    "title": "Tu Escapada Soñada en Alcalá",
-    "subtitle": "Disfruta de impresionantes vistas al mar y atardeceres inolvidables desde nuestro exclusivo ático.",
+    "title_line1": "ALCALÁ",
+    "title_line2": "TENERIFE",
+    "title_line3": "España",
     "book_button": "Reservar Ahora"
   },
   "valueProposition": {
