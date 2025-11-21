@@ -103,12 +103,12 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
             <Carousel 
                 setApi={setModalApi} 
                 opts={{ loop: true, align: "start", startIndex: selectedIndex }}
-                className="w-full h-full sm:w-auto sm:h-auto"
+                className="w-full h-auto"
             >
-                <CarouselContent className="h-full">
+                <CarouselContent>
                 {imageData.gallery.map((image) => (
                     <CarouselItem key={`modal-${image.id}`} className="flex items-center justify-center">
-                        <div className="relative w-full h-auto aspect-[16/10] max-h-full">
+                        <div className="relative w-full h-auto aspect-[16/10] max-h-[80vh]">
                             <Image
                             src={image.src}
                             alt={image.alt}
