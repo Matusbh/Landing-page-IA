@@ -12,7 +12,7 @@ import { format } from 'date-fns';
 const BookingRequestSchema = z.object({
   name: z.string().describe('The full name of the person making the request.'),
   email: z.string().email().describe('The email address of the person making the request.'),
-  guests: z.number().int().min(1).describe('The number of guests for the stay.'),
+  guests: z.coerce.number().int().min(1).describe('The number of guests for the stay.'),
   dates: z.object({
     from: z.date().describe('The check-in date.'),
     to: z.date().describe('The check-out date.'),
@@ -55,17 +55,15 @@ const bookingRequestFlow = ai.defineFlow(
     // In a real application, you would use an email sending service (e.g., SendGrid, Resend)
     // to send the generated content.
     // For this example, we will just log the generated email to the console.
-    console.log("--- Email para enviar a diovista@gmail.com ---");
+    console.log("--- Email para enviar a matusbehun03@gmial.com ---");
     console.log(emailContent);
     console.log("--- Fin del email ---");
 
     // This is where you would call your email sending tool.
     // await sendEmailTool({
-    //   to: 'diovista@gmail.com',
+    //   to: 'matusbehun03@gmial.com',
     //   subject: subject,
     //   body: body,
     // });
   }
 );
-
-    
