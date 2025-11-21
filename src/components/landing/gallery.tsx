@@ -1,3 +1,4 @@
+
 "use client"
 
 import Image from "next/image"
@@ -18,14 +19,12 @@ import imageData from "@/app/lib/placeholder-images.json"
 import type { Dictionary } from "@/lib/dictionaries"
 import * as React from "react"
 import Autoplay from "embla-carousel-autoplay"
-import { useIsMobile } from "@/hooks/use-mobile"
 
 export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
   const plugin = React.useRef(
     Autoplay({ delay: 3000, stopOnInteraction: true })
   )
 
-  const isMobile = useIsMobile()
   const [open, setOpen] = React.useState(false)
   const [api, setApi] = React.useState<CarouselApi>()
   const [modalApi, setModalApi] = React.useState<CarouselApi>()
@@ -33,14 +32,11 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
 
   const onThumbClick = React.useCallback(
     (index: number) => {
-      if (!api || !modalApi) return
-      api.scrollTo(index)
-      if (isMobile) {
-        setSelectedIndex(index)
-        setOpen(true)
-      }
+      if (!api) return
+      setSelectedIndex(index)
+      setOpen(true)
     },
-    [api, modalApi, isMobile]
+    [api]
   )
   
   React.useEffect(() => {
@@ -69,7 +65,7 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
           <Carousel
             setApi={setApi}
             plugins={[plugin.current]}
-            className="w-full max-w-4xl transition-transform duration-300 hover:scale-105"
+            className="w-full max-w-4xl transition-transform duration-300 md:hover:scale-105"
             opts={{ loop: true, align: "start" }}
             onMouseEnter={plugin.current.stop}
             onMouseLeave={plugin.current.reset}
@@ -101,12 +97,16 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
       </div>
       
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="max-w-7xl w-full bg-transparent border-0 p-4">
-            <Carousel setApi={setModalApi} opts={{ loop: true, align: "start", startIndex: selectedIndex }}>
+        <DialogContent className="max-w-none w-screen h-screen sm:max-w-7xl sm:h-auto sm:w-full bg-transparent border-0 p-2 sm:p-4 flex items-center justify-center">
+            <Carousel 
+                setApi={setModalApi} 
+                opts={{ loop: true, align: "start", startIndex: selectedIndex }}
+                className="w-full h-full sm:w-auto sm:h-auto"
+            >
                 <CarouselContent>
                 {imageData.gallery.map((image) => (
                     <CarouselItem key={`modal-${image.id}`}>
-                        <div className="relative aspect-[16/10] w-full">
+                        <div className="relative w-full h-full aspect-[16/10]">
                             <Image
                             src={image.src}
                             alt={image.alt}
@@ -117,8 +117,8 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
                     </CarouselItem>
                 ))}
                 </CarouselContent>
-                <CarouselPrevious className="-left-14" />
-                <CarouselNext className="-right-14" />
+                <CarouselPrevious className="absolute left-2 sm:-left-14 top-1/2 -translate-y-1/2 z-10" />
+                <CarouselNext className="absolute right-2 sm:-right-14 top-1/2 -translate-y-1/2 z-10" />
             </Carousel>
         </DialogContent>
       </Dialog>
