@@ -22,7 +22,6 @@ import * as React from "react"
 import Autoplay from "embla-carousel-autoplay"
 import { X } from 'lucide-react'
 import { useIsMobile } from "@/hooks/use-mobile"
-import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 
 export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
@@ -111,7 +110,7 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
             >
                 <CarouselContent className="h-full">
                 {imageData.gallery.map((image) => (
-                    <CarouselItem key={`modal-${image.id}`} className="flex items-end justify-center h-full pb-12">
+                    <CarouselItem key={`modal-${image.id}`} className="flex items-center justify-center h-full">
                         <div className="relative w-full h-full max-h-[80vh] aspect-[16/10]">
                             <Image
                             src={image.src}
