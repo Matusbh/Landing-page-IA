@@ -101,7 +101,7 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
       </div>
       
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="max-w-none w-screen h-screen sm:max-w-7xl sm:h-auto sm:w-full bg-black/80 border-0 p-0 flex items-center justify-center">
+        <DialogContent className="max-w-none w-screen h-screen sm:max-w-7xl sm:h-auto sm:w-full bg-black/80 border-0 p-0 grid place-items-center">
             <DialogTitle className="sr-only">Image Gallery</DialogTitle>
             <Carousel 
                 setApi={setModalApi} 
