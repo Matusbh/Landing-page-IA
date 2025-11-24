@@ -29,11 +29,8 @@ export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
                 {dict.title_line1}
               </h1>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-wide -mt-2 sm:-mt-4">
-                {dict.title_line2}
+                {dict.title_line2}, {dict.title_line3}
               </h2>
-              <p className="font-script text-4xl sm:text-5xl lg:text-6xl absolute -right-4 sm:-right-8 top-1/2 -translate-y-1/4 rotate-[-10deg]">
-                {dict.title_line3}
-              </p>
             </div>
             <div className="mt-12">
               <Button asChild size="lg" className="px-10 py-6 text-lg">
