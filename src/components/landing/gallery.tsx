@@ -21,14 +21,12 @@ import type { Dictionary } from "@/lib/dictionaries"
 import * as React from "react"
 import Autoplay from "embla-carousel-autoplay"
 import { X } from 'lucide-react'
-import { useIsMobile } from "@/hooks/use-mobile"
 import { Button } from "@/components/ui/button"
 
 export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
   const plugin = React.useRef(
     Autoplay({ delay: 3000, stopOnInteraction: true })
   )
-  const isMobile = useIsMobile()
 
   const [open, setOpen] = React.useState(false)
   const [api, setApi] = React.useState<CarouselApi>()
@@ -110,8 +108,8 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
             >
                 <CarouselContent className="h-full">
                 {imageData.gallery.map((image) => (
-                    <CarouselItem key={`modal-${image.id}`} className="flex items-center justify-center h-full">
-                        <div className="relative w-full h-full max-h-[80vh] aspect-[16/10]">
+                    <CarouselItem key={`modal-${image.id}`} className="flex items-center justify-center h-full p-4">
+                        <div className="relative w-full h-full max-h-[85vh] aspect-video">
                             <Image
                             src={image.src}
                             alt={image.alt}
