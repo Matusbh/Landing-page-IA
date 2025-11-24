@@ -8,11 +8,6 @@ import type { Dictionary } from '@/lib/dictionaries'
 
 export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
   const { heroBackground } = imageData
-  const collageImages = [
-    imageData.explore[1],
-    imageData.gallery[3],
-    imageData.explore[4],
-  ]
 
   return (
     <section className="relative h-screen w-full">
@@ -36,7 +31,7 @@ export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-wide -mt-2 sm:-mt-4">
                 {dict.title_line2}
               </h2>
-              <p className="font-script text-4xl sm:text-5xl lg:text-6xl text-accent absolute -right-4 sm:-right-8 top-1/2 -translate-y-1/4 rotate-[-10deg]">
+              <p className="font-script text-4xl sm:text-5xl lg:text-6xl absolute -right-4 sm:-right-8 top-1/2 -translate-y-1/4 rotate-[-10deg]">
                 {dict.title_line3}
               </p>
             </div>
@@ -46,48 +41,6 @@ export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
               </Button>
             </div>
           </div>
-
-          {/* Right side: Image Collage */}
-          {/*
-          <div className="hidden md:flex relative w-1/3 h-full items-center justify-center">
-            {/* Círculo mediano * /}
-            <div
-              className="absolute top-1/4 right-0 w-56 h-56 rounded-full overflow-hidden border-4 border-white shadow-lg"
-              data-ai-hint={collageImages[0].hint}
-            >
-              <Image
-                src={collageImages[0].src}
-                alt={collageImages[0].alt}
-                fill
-                className="object-cover"
-              />
-            </div>
-            {/* Círculo más grande * /}
-            <div
-              className="absolute bottom-12 left-7 w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-white shadow-lg"
-              data-ai-hint={collageImages[1].hint}
-            >
-              <Image
-                src={collageImages[1].src}
-                alt={collageImages[1].alt}
-                fill
-                className="object-cover"
-              />
-            </div>
-            {/* Círculo más pequeño * /}
-            <div
-              className="absolute bottom-1/3 right-1/4 w-40 h-40 rounded-full overflow-hidden border-4 border-white shadow-lg"
-              data-ai-hint={collageImages[2].hint}
-            >
-              <Image
-                src={collageImages[2].src}
-                alt={collageImages[2].alt}
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
-          */}
         </div>
       </div>
     </section>
