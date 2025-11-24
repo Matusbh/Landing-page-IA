@@ -35,7 +35,7 @@
     "description2": "Cada detalle ha sido cuidadosamente seleccionado para garantizar tu máximo confort. Desde la cocina totalmente equipada hasta las cómodas habitaciones, todo está pensado para que te sientas como en casa, pero con el Atlántico a tus pies. Despierta con el sonido de las olas, desayuna bajo el sol tinerfeño y termina el día brindando en tu paraíso privado."
   },
   "gallery": {
-    "title": "Un Vistazo al Interior",
+    "title": "Interior",
     "subtitle": "Un recorrido visual por las estancias y detalles que hacen de nuestro ático un lugar único."
   },
   "services": {
@@ -145,7 +145,7 @@
       },
       {
         "title": "Voley Playa",
-        "description": "Juega un partido de voley playa en la arena junto al mar, una actividad perfecta para disfrutar en grupo."
+        "description": "Juega un partido de voley playa en la arena junto al mar, una actividad perfectapara disfrutar en grupo."
       }
     ]
   },
