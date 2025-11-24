@@ -28,8 +28,9 @@ export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
               <h1 className="text-6xl sm:text-8xl lg:text-9xl font-extrabold uppercase tracking-tighter">
                 {dict.title_line1}
               </h1>
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-wide -mt-2 sm:-mt-4">
-                {dict.title_line2}, {dict.title_line3}
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-wide -mt-2 sm:-mt-4 flex items-center gap-4">
+                <span>{dict.title_line2}</span>
+                <span className="font-script normal-case text-4xl sm:text-5xl lg:text-6xl">{dict.title_line3}</span>
               </h2>
             </div>
             <div className="mt-12">
