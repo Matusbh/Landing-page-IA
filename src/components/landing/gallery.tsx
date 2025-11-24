@@ -98,7 +98,7 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
       </div>
       
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="max-w-none w-screen h-screen p-0 border-0">
+        <DialogContent className="max-w-none w-screen h-screen p-0 border-0 bg-background/80 backdrop-blur-sm">
             <DialogTitle className="sr-only">Image Gallery</DialogTitle>
             <DialogDescription className="sr-only">
               Image gallery carousel. Use the next and previous buttons to navigate.
