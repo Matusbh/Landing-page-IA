@@ -21,8 +21,6 @@ import imageData from "@/app/lib/placeholder-images.json"
 import type { Dictionary } from "@/lib/dictionaries"
 import * as React from "react"
 import Autoplay from "embla-carousel-autoplay"
-import { X } from 'lucide-react'
-import { Button } from "@/components/ui/button"
 
 export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
   const plugin = React.useRef(
@@ -100,7 +98,7 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
       </div>
       
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="max-w-none w-screen h-screen bg-background p-0 border-0 flex items-center justify-center">
+        <DialogContent className="max-w-none w-screen h-screen p-0 border-0">
             <DialogTitle className="sr-only">Image Gallery</DialogTitle>
             <DialogDescription className="sr-only">
               Image gallery carousel. Use the next and previous buttons to navigate.
@@ -113,7 +111,7 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
                 <CarouselContent className="h-full">
                 {imageData.gallery.map((image) => (
                     <CarouselItem key={`modal-${image.id}`} className="flex items-center justify-center h-full p-4">
-                        <div className="relative w-full h-full max-h-[85vh] aspect-video">
+                        <div className="relative w-full h-full max-h-[85vh] max-w-[90vw] aspect-video">
                             <Image
                               src={image.src}
                               alt={image.alt}
@@ -127,14 +125,6 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
                 <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-20 sm:left-10" />
                 <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-20 sm:right-10" />
             </Carousel>
-            <Button
-              variant="ghost"
-              onClick={() => setOpen(false)}
-              className="absolute right-4 top-4 rounded-full p-2 bg-white/50 text-foreground opacity-80 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground z-20 h-10 w-10"
-            >
-                <X className="h-6 w-6" />
-                <span className="sr-only">Close</span>
-            </Button>
         </DialogContent>
       </Dialog>
     </section>
