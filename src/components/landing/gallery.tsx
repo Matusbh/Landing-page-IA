@@ -98,7 +98,7 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
       </div>
       
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="max-w-none w-screen h-screen p-0 border-0 bg-background/80 backdrop-blur-sm">
+        <DialogContent className="flex items-center justify-center max-w-none w-screen h-screen p-0 border-0 bg-background/80 backdrop-blur-sm">
             <DialogTitle className="sr-only">Image Gallery</DialogTitle>
             <DialogDescription className="sr-only">
               Image gallery carousel. Use the next and previous buttons to navigate.
@@ -106,12 +106,12 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
             <Carousel 
                 setApi={setModalApi} 
                 opts={{ loop: true, align: "start", startIndex: selectedIndex }}
-                className="w-full h-full"
+                className="w-full h-full max-h-[85vh] max-w-[90vw]"
             >
                 <CarouselContent className="h-full">
                 {imageData.gallery.map((image) => (
                     <CarouselItem key={`modal-${image.id}`} className="flex items-center justify-center h-full p-4">
-                        <div className="relative w-full h-full max-h-[85vh] max-w-[90vw] aspect-video">
+                        <div className="relative w-full h-full aspect-video">
                             <Image
                               src={image.src}
                               alt={image.alt}
