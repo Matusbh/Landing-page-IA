@@ -151,7 +151,7 @@
   },
   "cta": {
     "title": "Formulario de Reserva",
-    "description": "El precio por noche es de 120€. Envíanos tu solicitud y te contactaremos a la brevedad para confirmar la disponibilidad. Si prefieres contactar por teléfono, puedes llamar al 123456789.",
+    "description": "El precio por noche es de 120€. Envíanos tu solicitud y te contactaremos a la brevedad para confirmar la disponibilidad. Si prefieres contactar por teléfono, puedes llamar al +420 730 893 416.",
     "form": {
       "name": "Nombre completo",
       "email": "Correo electrónico",
@@ -172,7 +172,7 @@
     "contact": {
       "title": "Contacto",
       "address": "Calle Garajonay 10, Alcalá, España",
-      "phone": "Teléfono: 123456789"
+      "phone": "Teléfono: +420 730 893 416"
     },
     "quick_links": {
       "title": "Enlaces rápidos",

@@ -151,7 +151,7 @@
   },
   "cta": {
     "title": "Booking Request Form",
-    "description": "The price per night is €120. Send us your request, and we will contact you shortly to confirm availability. If you prefer to contact by phone, you can call 123456789.",
+    "description": "The price per night is €120. Send us your request, and we will contact you shortly to confirm availability. If you prefer to contact by phone, you can call +420 730 893 416.",
     "form": {
       "name": "Full name",
       "email": "Email address",
@@ -172,7 +172,7 @@
     "contact": {
       "title": "Contact",
       "address": "Calle Garajonay 10, Alcalá, Spain",
-      "phone": "Phone: 123456789"
+      "phone": "Phone: +420 730 893 416"
     },
     "quick_links": {
       "title": "Quick links",

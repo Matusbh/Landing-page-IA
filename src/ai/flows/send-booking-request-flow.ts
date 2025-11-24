@@ -118,7 +118,7 @@ const bookingRequestFlow = ai.defineFlow(
     
     const emailContent = `Subject: ${subject}\n\n${body}`;
 
-    console.log("--- Email para enviar a diovista@gmail.com ---");
+    console.log("--- Email para enviar a diovista00@gmail.com ---");
     console.log(emailContent);
     console.log("--- Fin del email ---");
 

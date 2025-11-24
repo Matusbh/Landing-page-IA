@@ -151,7 +151,7 @@
   },
   "cta": {
     "title": "Formularz rezerwacyjny",
-    "description": "Cena za noc wynosi 120 €. Wyślij nam swoje zapytanie, a wkrótce skontaktujemy się z Tobą w celu potwierdzenia dostępności. Jeśli wolisz kontakt telefoniczny, zadzwoń pod numer 123456789.",
+    "description": "Cena za noc wynosi 120 €. Wyślij nam swoje zapytanie, a wkrótce skontaktujemy się z Tobą w celu potwierdzenia dostępności. Jeśli wolisz kontakt telefoniczny, zadzwoń pod numer +420 730 893 416.",
     "form": {
       "name": "Imię i nazwisko",
       "email": "Adres e-mail",
@@ -172,7 +172,7 @@
     "contact": {
       "title": "Kontakt",
       "address": "Calle Garajonay 10, Alcalá, Hiszpania",
-      "phone": "Telefon: 123456789"
+      "phone": "Telefon: +420 730 893 416"
     },
     "quick_links": {
       "title": "Szybkie linki",
