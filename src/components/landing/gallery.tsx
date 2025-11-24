@@ -2,6 +2,11 @@
 "use client"
 
 import Image from "next/image"
+import * as React from "react"
+import Autoplay from "embla-carousel-autoplay"
+import Lightbox from "yet-another-react-lightbox"
+import "yet-another-react-lightbox/styles.css"
+
 import { Card, CardContent } from "@/components/ui/card"
 import {
   Carousel,
@@ -9,18 +14,9 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-  type CarouselApi,
 } from "@/components/ui/carousel"
-import {
-  Dialog,
-  DialogContent,
-  DialogTitle,
-  DialogDescription,
-} from "@/components/ui/dialog"
 import imageData from "@/app/lib/placeholder-images.json"
 import type { Dictionary } from "@/lib/dictionaries"
-import * as React from "react"
-import Autoplay from "embla-carousel-autoplay"
 
 export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
   const plugin = React.useRef(
@@ -28,30 +24,14 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
   )
 
   const [open, setOpen] = React.useState(false)
-  const [api, setApi] = React.useState<CarouselApi>()
-  const [modalApi, setModalApi] = React.useState<CarouselApi>()
-  const [selectedIndex, setSelectedIndex] = React.useState(0)
+  const [index, setIndex] = React.useState(0)
 
-  const onThumbClick = React.useCallback(
-    (index: number) => {
-      setSelectedIndex(index)
-      setOpen(true)
-    },
-    []
-  )
-  
-  React.useEffect(() => {
-    if (!api) return
-    api.on("select", () => {
-      setSelectedIndex(api.selectedScrollSnap())
-    })
-  }, [api])
+  const slides = imageData.gallery.map(image => ({ src: image.src }));
 
-  React.useEffect(() => {
-    if (open && modalApi) {
-      modalApi.scrollTo(selectedIndex, true)
-    }
-  }, [open, selectedIndex, modalApi])
+  const handleThumbClick = (slideIndex: number) => {
+    setIndex(slideIndex)
+    setOpen(true)
+  }
 
   return (
     <section id="gallery" className="py-16 sm:py-24">
@@ -64,7 +44,6 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
         </div>
         <div className="mt-16 flex justify-center">
           <Carousel
-            setApi={setApi}
             plugins={[plugin.current]}
             className="w-full max-w-4xl transition-transform duration-300 md:hover:scale-105"
             opts={{ loop: true, align: "start" }}
@@ -72,8 +51,8 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
             onMouseLeave={plugin.current.reset}
           >
             <CarouselContent>
-              {imageData.gallery.map((image, index) => (
-                <CarouselItem key={image.id} onClick={() => onThumbClick(index)} className="cursor-pointer">
+              {imageData.gallery.map((image, i) => (
+                <CarouselItem key={image.id} onClick={() => handleThumbClick(i)} className="cursor-pointer">
                   <Card className="overflow-hidden">
                     <CardContent className="flex aspect-[16/10] items-center justify-center p-0">
                       <div className="relative h-full w-full">
@@ -83,7 +62,7 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
                           data-ai-hint={image.hint}
                           fill
                           className="object-cover"
-                          priority={index === 0}
+                          priority={i === 0}
                         />
                       </div>
                     </CardContent>
@@ -97,36 +76,12 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
         </div>
       </div>
       
-      <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="flex items-center justify-center max-w-none w-screen h-screen p-0 border-0 bg-background/80 backdrop-blur-sm">
-            <DialogTitle className="sr-only">Image Gallery</DialogTitle>
-            <DialogDescription className="sr-only">
-              Image gallery carousel. Use the next and previous buttons to navigate.
-            </DialogDescription>
-            <Carousel 
-                setApi={setModalApi} 
-                opts={{ loop: true, align: "start", startIndex: selectedIndex }}
-                className="w-full h-full max-h-[85vh] max-w-[90vw]"
-            >
-                <CarouselContent className="h-full">
-                {imageData.gallery.map((image) => (
-                    <CarouselItem key={`modal-${image.id}`} className="flex items-center justify-center h-full p-4">
-                        <div className="relative w-full h-full aspect-video">
-                            <Image
-                              src={image.src}
-                              alt={image.alt}
-                              fill
-                              className="object-contain"
-                            />
-                        </div>
-                    </CarouselItem>
-                ))}
-                </CarouselContent>
-                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-20 sm:left-10" />
-                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-20 sm:right-10" />
-            </Carousel>
-        </DialogContent>
-      </Dialog>
+      <Lightbox
+        open={open}
+        close={() => setOpen(false)}
+        slides={slides}
+        index={index}
+      />
     </section>
   )
 }
