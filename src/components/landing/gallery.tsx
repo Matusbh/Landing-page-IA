@@ -14,6 +14,8 @@ import {
 import {
   Dialog,
   DialogContent,
+  DialogTitle,
+  DialogDescription,
 } from "@/components/ui/dialog"
 import imageData from "@/app/lib/placeholder-images.json"
 import type { Dictionary } from "@/lib/dictionaries"
@@ -98,7 +100,11 @@ export default function Gallery({ dict }: { dict: Dictionary['gallery'] }) {
       </div>
       
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="max-w-none w-screen h-screen bg-background/95 backdrop-blur-sm p-0 border-0 flex items-center justify-center">
+        <DialogContent className="max-w-none w-screen h-screen bg-background p-0 border-0 flex items-center justify-center">
+            <DialogTitle className="sr-only">Image Gallery</DialogTitle>
+            <DialogDescription className="sr-only">
+              Image gallery carousel. Use the next and previous buttons to navigate.
+            </DialogDescription>
             <Carousel 
                 setApi={setModalApi} 
                 opts={{ loop: true, align: "start", startIndex: selectedIndex }}
