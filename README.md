@@ -1,6 +1,6 @@
 # DioVista Apartments - Tu Escapada en Alcalá
 
-![Vista previa del proyecto](./public/img/vista-2.png)
+![Vista previa del proyecto](https://github.com/Matusbh/studio/blob/main/public/images/vista-2.png) 
 
 Este repositorio contiene el código fuente del sitio web oficial de los apartamentos DioVista, un exclusivo ático dúplex situado en Alcalá, Tenerife. El sitio web está diseñado para ser una vitrina elegante y funcional que muestra las características del apartamento, su ubicación y permite a los usuarios solicitar una reserva.
 
