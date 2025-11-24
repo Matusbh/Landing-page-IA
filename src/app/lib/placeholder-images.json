@@ -10,7 +10,15 @@
     { "id": "gallery2", "src": "/images/terraza-alcala.jpeg", "alt": "Modern and fully equipped kitchen", "hint": "modern kitchen" },
     { "id": "gallery3", "src": "/images/Alcala-cama.jpeg", "alt": "Cozy bedroom with natural light", "hint": "cozy bedroom" },
     { "id": "gallery4", "src": "/images/cala.jpeg", "alt": "Spacious terrace with sunbeds", "hint": "terrace sunbeds" },
-    { "id": "gallery5", "src": "/images/parque.jpeg", "alt": "Bathroom with modern fixtures", "hint": "modern bathroom" }
+    { "id": "gallery5", "src": "/images/parque.jpeg", "alt": "Bathroom with modern fixtures", "hint": "modern bathroom" },
+    { "id": "gallery6", "src": "/images/parque.jpeg", "alt": "Bathroom with modern fixtures", "hint": "modern bathroom" },
+    { "id": "gallery7", "src": "/images/parque.jpeg", "alt": "Bathroom with modern fixtures", "hint": "modern bathroom" },
+    { "id": "gallery8", "src": "/images/parque.jpeg", "alt": "Bathroom with modern fixtures", "hint": "modern bathroom" },
+    { "id": "gallery9", "src": "/images/parque.jpeg", "alt": "Bathroom with modern fixtures", "hint": "modern bathroom" },
+    { "id": "gallery10", "src": "/images/parque.jpeg", "alt": "Bathroom with modern fixtures", "hint": "modern bathroom" },
+    { "id": "gallery11", "src": "/images/parque.jpeg", "alt": "Bathroom with modern fixtures", "hint": "modern bathroom" },
+    { "id": "gallery12", "src": "/images/parque.jpeg", "alt": "Bathroom with modern fixtures", "hint": "modern bathroom" },
+    { "id": "gallery13", "src": "/images/parque.jpeg", "alt": "Bathroom with modern fixtures", "hint": "modern bathroom" }
   ],
   "explore": [
     { "id": "explore1", "src": "/images/alcala-tenerife-pueblo.webp", "alt": "Charming streets of Alcalá", "hint": "charming street" },
