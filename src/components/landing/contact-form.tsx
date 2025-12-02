@@ -31,7 +31,7 @@ import { toast } from "@/hooks/use-toast"
 import { sendBookingRequest } from "@/ai/flows/send-booking-request-flow"
 import type { Dictionary, Locale } from "@/lib/dictionaries"
 
-const locales: Record<Locale, Locale> = {
+const locales: Record<Locale, globalThis.Locale> = {
   es,
   en: enUS,
   pl,
@@ -76,22 +76,23 @@ export function ContactForm({ dict, lang }: ContactFormProps) {
           to: values.dates.to.toISOString(),
         }
       };
-      const emailContent = await sendBookingRequest(requestData);
-      console.log("--- Contenido del correo generado ---");
-      console.log(emailContent);
-      console.log("--- Fin del contenido ---");
-      
-      toast({
-        title: dict.success_title,
-        description: dict.success_description,
-      })
-      form.reset();
-    } catch (error) {
+      const result = await sendBookingRequest(requestData);
+
+      if (result.success) {
+        toast({
+          title: dict.success_title,
+          description: dict.success_description,
+        })
+        form.reset();
+      } else {
+        throw new Error(result.message);
+      }
+    } catch (error: any) {
       console.error(error)
       toast({
         variant: "destructive",
         title: dict.error_title,
-        description: dict.error_description,
+        description: error.message || dict.error_description,
       })
     } finally {
       setIsSubmitting(false)

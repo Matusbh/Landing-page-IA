@@ -11,6 +11,7 @@ import { z } from 'zod';
 import { format } from 'date-fns';
 import { es, enUS, pl, cs } from 'date-fns/locale';
 import type { Locale } from '@/lib/dictionaries';
+import { Resend } from 'resend';
 
 const locales: Record<Locale, globalThis.Locale> = {
   es,
@@ -18,6 +19,9 @@ const locales: Record<Locale, globalThis.Locale> = {
   pl,
   cs,
 };
+
+// Initialize Resend with the API key from environment variables
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 const emailTemplates: Record<Locale, { subject: string; body: (req: any, f: typeof format) => string }> = {
   es: {
@@ -82,7 +86,6 @@ const emailTemplates: Record<Locale, { subject: string; body: (req: any, f: type
   }
 };
 
-
 const BookingRequestSchema = z.object({
   name: z.string().describe('The full name of the person making the request.'),
   email: z.string().email().describe('The email address of the person making the request.'),
@@ -96,32 +99,56 @@ const BookingRequestSchema = z.object({
 
 export type BookingRequestInput = z.infer<typeof BookingRequestSchema>;
 
-export async function sendBookingRequest(input: BookingRequestInput): Promise<string> {
+export async function sendBookingRequest(input: BookingRequestInput): Promise<{ success: boolean; message: string }> {
   return await bookingRequestFlow(input);
 }
 
-// NOTE: This flow only generates the email content. Actually sending the email
-// requires an additional tool or service for sending emails, which is not
-// implemented here. The generated content is returned for logging.
 const bookingRequestFlow = ai.defineFlow(
   {
     name: 'bookingRequestFlow',
     inputSchema: BookingRequestSchema,
-    outputSchema: z.string(),
+    outputSchema: z.object({
+      success: z.boolean(),
+      message: z.string(),
+    }),
   },
   async (request) => {
+    if (!process.env.RESEND_API_KEY || process.env.RESEND_API_KEY === 'YOUR_API_KEY') {
+      const errorMessage = "Configuración de Resend incompleta. Por favor, añada la API Key al archivo .env";
+      console.error(errorMessage);
+      return {
+        success: false,
+        message: errorMessage,
+      };
+    }
+
     const lang = request.lang || 'es';
     const template = emailTemplates[lang];
 
     const subject = template.subject;
     const body = template.body(request, format);
     
-    const emailContent = `Subject: ${subject}\n\n${body}`;
+    try {
+      await resend.emails.send({
+        from: 'onboarding@resend.dev', // This is a default for testing. You'll need a verified domain for production.
+        to: 'diovista00@gmail.com',
+        reply_to: request.email,
+        subject: subject,
+        text: body,
+      });
+      
+      console.log(`Email sent successfully for booking request from ${request.email}`);
+      return {
+        success: true,
+        message: "Email sent successfully.",
+      };
 
-    console.log("--- Email para enviar a diovista00@gmail.com ---");
-    console.log(emailContent);
-    console.log("--- Fin del email ---");
-
-    return emailContent;
+    } catch (error) {
+      console.error("Error sending email:", error);
+      return {
+        success: false,
+        message: "Failed to send email.",
+      };
+    }
   }
 );
