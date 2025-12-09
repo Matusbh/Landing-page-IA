@@ -26,7 +26,7 @@ export default function Header({ dict, lang }: { dict: Dictionary['header'], lan
         <div className="flex items-center">
           <Link href="#" className="flex items-center gap-2">
             <Image 
-              src="/images/Diovista-svg.svg"
+              src="/images/DVLOGO.PNG"
               alt="DioVista Logo"
               width={140}
               height={40}
