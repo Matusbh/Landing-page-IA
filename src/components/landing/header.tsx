@@ -1,5 +1,7 @@
+
 import Link from 'next/link'
-import { Mountain, Menu } from 'lucide-react'
+import Image from 'next/image'
+import { Menu } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet'
 import { ThemeSwitcher } from './theme-switcher'
@@ -23,8 +25,14 @@ export default function Header({ dict, lang }: { dict: Dictionary['header'], lan
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center">
           <Link href="#" className="flex items-center gap-2">
-            <Mountain className="h-6 w-6 text-accent" />
-            <span className="font-bold font-headline">DioVista</span>
+            <Image 
+              src="/images/Diovista-svg.svg"
+              alt="DioVista Logo"
+              width={140}
+              height={40}
+              className="h-8 w-auto"
+              priority
+            />
           </Link>
         </div>
         
@@ -52,8 +60,13 @@ export default function Header({ dict, lang }: { dict: Dictionary['header'], lan
                 </SheetHeader>
                 <div className="p-4">
                   <Link href="#" className="flex items-center gap-2 mb-8">
-                    <Mountain className="h-6 w-6 text-accent" />
-                    <span className="font-bold font-headline">DioVista</span>
+                    <Image 
+                      src="/images/Diovista-svg.svg"
+                      alt="DioVista Logo"
+                      width={140}
+                      height={40}
+                      className="h-8 w-auto"
+                    />
                   </Link>
                   <nav className="grid gap-6 text-lg font-medium">
                     {navItems.map((item) => (

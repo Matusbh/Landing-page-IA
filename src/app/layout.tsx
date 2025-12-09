@@ -7,9 +7,9 @@ export const metadata: Metadata = {
   title: 'DioVista Apartments',
   description: 'Tu Escapada Soñada en Alcalá',
   icons: {
-    icon: '/images/favicon.ico',
-    shortcut: '/images/Diovista-svg.svg',
-    apple: '/images/apple-icon.png',
+    icon: '/images/DVLOGO.PNG',
+    shortcut: '/images/DVLOGO.PNG',
+    apple: '/images/DVLOGO.PNG',
   },
 };
 
