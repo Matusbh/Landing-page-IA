@@ -7,9 +7,9 @@ export const metadata: Metadata = {
   title: 'DioVista Apartments',
   description: 'Tu Escapada Soñada en Alcalá',
   icons: {
-    icon: '/DV.webp',
-    shortcut: '/DV.webp',
-    apple: '/DV.webp',
+    icon: '/DV-logo.svg',
+    shortcut: '/DV-logo.svg',
+    apple: '/DV-logo.svg',
   },
 };
 
@@ -21,7 +21,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-      <link rel="icon" type="image/svg+xml" href="src/app/home.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=PT+Sans:wght@400;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet" />
