@@ -113,8 +113,8 @@ const bookingRequestFlow = ai.defineFlow(
     }),
   },
   async (request) => {
-    if (!process.env.RESEND_API_KEY || process.env.RESEND_API_KEY === 'YOUR_API_KEY') {
-      const errorMessage = "Configuración de Resend incompleta. Por favor, añada la API Key al archivo .env";
+    if (!process.env.RESEND_API_KEY || !process.env.GEMINI_API_KEY) {
+      const errorMessage = "API key configuration is incomplete. Please check your .env file.";
       console.error(errorMessage);
       return {
         success: false,
@@ -129,8 +129,9 @@ const bookingRequestFlow = ai.defineFlow(
     const body = template.body(request, format);
     
     try {
+      const resend = new Resend(process.env.RESEND_API_KEY);
       await resend.emails.send({
-        from: 'noreply@diovista.com', // The client needs to verify this domain in Resend.
+        from: 'noreply@diovista.com',
         to: 'info@diovista.com',
         reply_to: request.email,
         subject: subject,
