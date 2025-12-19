@@ -6,7 +6,6 @@
  * - sendBookingRequest: A function that processes and sends the booking request.
  * - BookingRequestInput: The input type for the sendBookingRequest function.
  */
-import { ai } from '@/ai/genkit';
 import { z } from 'zod';
 import { format } from 'date-fns';
 import { es, enUS, pl, cs } from 'date-fns/locale';
@@ -19,9 +18,6 @@ const locales: Record<Locale, globalThis.Locale> = {
   pl,
   cs,
 };
-
-// Initialize Resend with the API key from environment variables
-const resend = new Resend(process.env.RESEND_API_KEY);
 
 const emailTemplates: Record<Locale, { subject: string; body: (req: any, f: typeof format) => string }> = {
   es: {
@@ -100,56 +96,53 @@ const BookingRequestSchema = z.object({
 export type BookingRequestInput = z.infer<typeof BookingRequestSchema>;
 
 export async function sendBookingRequest(input: BookingRequestInput): Promise<{ success: boolean; message: string }> {
-  return await bookingRequestFlow(input);
-}
+  const parsedRequest = BookingRequestSchema.safeParse(input);
 
-const bookingRequestFlow = ai.defineFlow(
-  {
-    name: 'bookingRequestFlow',
-    inputSchema: BookingRequestSchema,
-    outputSchema: z.object({
-      success: z.boolean(),
-      message: z.string(),
-    }),
-  },
-  async (request) => {
-    if (!process.env.RESEND_API_KEY || !process.env.GEMINI_API_KEY) {
-      const errorMessage = "API key configuration is incomplete. Please check your .env file.";
-      console.error(errorMessage);
-      return {
-        success: false,
-        message: errorMessage,
-      };
-    }
-
-    const lang = request.lang || 'es';
-    const template = emailTemplates[lang];
-
-    const subject = template.subject;
-    const body = template.body(request, format);
-    
-    try {
-      const resend = new Resend(process.env.RESEND_API_KEY);
-      await resend.emails.send({
-        from: 'noreply@diovista.com',
-        to: 'info@diovista.com',
-        reply_to: request.email,
-        subject: subject,
-        text: body,
-      });
-      
-      console.log(`Email sent successfully for booking request from ${request.email}`);
-      return {
-        success: true,
-        message: "Email sent successfully.",
-      };
-
-    } catch (error) {
-      console.error("Error sending email:", error);
-      return {
-        success: false,
-        message: "Failed to send email.",
-      };
-    }
+  if (!parsedRequest.success) {
+    console.error("Invalid booking request input:", parsedRequest.error);
+    return {
+      success: false,
+      message: "Invalid input data.",
+    };
   }
-);
+  const request = parsedRequest.data;
+
+  if (!process.env.RESEND_API_KEY) {
+    const errorMessage = "Resend API key is not configured. Please check your .env file.";
+    console.error(errorMessage);
+    return {
+      success: false,
+      message: errorMessage,
+    };
+  }
+
+  const lang = request.lang || 'es';
+  const template = emailTemplates[lang];
+
+  const subject = template.subject;
+  const body = template.body(request, format);
+  
+  try {
+    const resend = new Resend(process.env.RESEND_API_KEY);
+    await resend.emails.send({
+      from: 'noreply@diovista.com',
+      to: 'info@diovista.com',
+      reply_to: request.email,
+      subject: subject,
+      text: body,
+    });
+    
+    console.log(`Email sent successfully for booking request from ${request.email}`);
+    return {
+      success: true,
+      message: "Email sent successfully.",
+    };
+
+  } catch (error) {
+    console.error("Error sending email:", error);
+    return {
+      success: false,
+      message: "Failed to send email.",
+    };
+  }
+}
