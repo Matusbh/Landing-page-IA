@@ -130,8 +130,8 @@ const bookingRequestFlow = ai.defineFlow(
     
     try {
       await resend.emails.send({
-        from: 'onboarding@resend.dev', // This is a default for testing. You'll need a verified domain for production.
-        to: 'diovista00@gmail.com',
+        from: 'noreply@diovista.com', // The client needs to verify this domain in Resend.
+        to: 'info@diovista.com',
         reply_to: request.email,
         subject: subject,
         text: body,
