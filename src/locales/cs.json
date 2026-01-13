@@ -1,0 +1,183 @@
+
+{
+  "header": {
+    "nav": {
+      "interior": "Interiér",
+      "services": "Služby",
+      "features": "Vlastnosti",
+      "zone": "Oblast",
+      "restaurants": "Restaurace",
+      "sports": "Sporty",
+      "booking": "Rezervace"
+    },
+    "book_button": "Rezervovat Nyní",
+    "theme_switcher": {
+      "label": "Motiv",
+      "light": "Světlý",
+      "dark": "Tmavý",
+      "system": "Systém"
+    },
+    "language_switcher": {
+      "label": "Jazyk"
+    }
+  },
+  "hero": {
+    "title_line1": "ALCALÁ",
+    "title_line2": "TENERIFE",
+    "title_line3": "Španělsko",
+    "book_button": "Rezervovat Nyní"
+  },
+  "valueProposition": {
+    "title": "Nezapomenutelný komfort, nepřekonatelná poloha",
+    "brand_name": "DioVista",
+    "apartman_type": "DUPLEX APARTMÁN",
+    "description1": "Vítejte v DioVista, exkluzivním penthouse v srdci Alcalá, kde se luxus snoubí s klidem. Naše ubytování, navržené tak, aby nabízelo jedinečný zážitek, kombinuje moderní a útulný interiérový design s velkolepou terasou, která vám poskytne panoramatický výhled na oceán a dechberoucí západy slunce.",
+    "description2": "Každý detail byl pečlivě vybrán, aby byl zajištěn váš maximální komfort. Od plně vybavené kuchyně po pohodlné pokoje, vše je navrženo tak, abyste se cítili jako doma, ale s Atlantikem u nohou. Probuďte se za zvuku vln, snídejte pod tenerifským sluncem a zakončete den přípitkem ve svém soukromém ráji."
+  },
+  "gallery": {
+    "title": "Interiér",
+    "subtitle": "Vizuální prohlídka místností a detailů, které činí náš penthouse jedinečným místem."
+  },
+  "services": {
+    "title": "Vlastnosti a služby",
+    "subtitle": "Vybavení, díky kterému se budete cítit jako doma.",
+    "items": {
+      "wifi": "WiFi zdarma",
+      "ac": "Klimatizace",
+      "private_bathroom": "Vlastní koupelna",
+      "kitchen": "Plně vybavená kuchyň",
+      "sea_view": "Výhled na moře",
+      "terrace": "Terasa s výhledem",
+      "washing_machine": "Pračka",
+      "parking": "Parkování v blízkosti",
+      "mountain_view": "Výhled na hory",
+      "bed_linen": "Ložní prádlo",
+      "contactless_checkin": "Bezkontaktní check-in",
+      "two_bathrooms": "Dvě koupelny",
+      "outdoor_kitchen": "Venkovní kuchyně",
+      "multilingual_checkin": "Vícejazyčný check-in",
+      "no_smoking": "Kouření zakázáno v celém ubytování"
+    }
+  },
+  "features": {
+    "title": "Proč si toto místo zamilujete",
+    "subtitle": "Vše, co potřebujete pro perfektní dovolenou.",
+    "items": [
+      {
+        "title": "Soukromá terasa",
+        "description": "Prostorný prostor pro slunění, večeři pod širým nebem nebo prostě jen relaxaci při pohledu na moře."
+      },
+      {
+        "title": "Perfektní poloha",
+        "description": "Pár kroků od pláže, přírodních bazénů, restaurací a obchodů. Všechno kouzlo Alcalá na dosah ruky."
+      },
+      {
+        "title": "Úchvatné výhledy",
+        "description": "Z terasy a obývacího pokoje si můžete užívat nerušený výhled na oceán a ostrov La Gomera."
+      },
+      {
+        "title": "Moderní komfort",
+        "description": "Kompletně zrekonstruovaný a vybavený všemi moderními vymoženostmi pro zajištění nezapomenutelného pobytu."
+      }
+    ]
+  },
+  "explore": {
+    "title": "Prozkoumejte okolí",
+    "subtitle": "Svět krásy a dobrodružství na dosah ruky.",
+    "discover_button": "Objevte více →",
+    "items": [
+      {
+        "title": "Kouzlo Alcalá",
+        "description": "Projděte se klidnými uličkami této autentické rybářské vesnice, objevte její náměstí a užijte si její uvolněnou atmosféru."
+      },
+      {
+        "title": "Pláž Alcalá",
+        "description": "Útulná pláž s černým pískem ideální pro osvěžující koupel, jen pár minut chůze od penthousu."
+      },
+      {
+        "title": "Okouzlující pobřeží",
+        "description": "Projděte se po promenádě, která spojuje několik přírodních bazénů se slanou vodou, ideálních pro celou rodinu."
+      },
+      {
+        "title": "Pláž Méndez",
+        "description": "Malá skrytá zátoka, ideální pro ty, kteří hledají klid a intimnější kontakt s mořem."
+      },
+      {
+        "title": "Dobrodružství za hranicemi",
+        "description": "Krátkou jízdou autem na vás čekají majestátní útesy Los Gigantes a Národní park Teide."
+      }
+    ]
+  },
+  "restaurants": {
+    "title": "Místní gastronomie",
+    "subtitle": "Ochutnejte to nejlepší z kanárské a mezinárodní kuchyně.",
+    "gmaps_button": "Zobrazit na Google Maps",
+    "items": [
+      { "name": "Restaurace Sauco" },
+      { "name": "Restaurace El Pescador" },
+      { "name": "Restaurace Muelle Viejo" }
+    ]
+  },
+  "sports": {
+    "title": "Aktivity pro sportovce",
+    "subtitle": "Zůstaňte aktivní a užívejte si přírodního prostředí.",
+    "gmaps_button": "Zobrazit na Google Maps",
+    "items": [
+      {
+        "title": "Promenáda",
+        "description": "Perfektní trasa pro chůzi, běh nebo jízdu na kole podél moře."
+      },
+      {
+        "title": "Surfování",
+        "description": "Krátkou jízdou autem, chyťte vlny na Tenerife a užijte si jeden z nejpopulárnějších sportů na ostrově."
+      },
+      {
+        "title": "Golf",
+        "description": "Pár minut jízdy autem najdete golfová hřiště světové třídy s nádhernými výhledy."
+      },
+      {
+        "title": "Tenis",
+        "description": "Užijte si zápas na místních tenisových kurtech dostupných pro všechny úrovně."
+      },
+      {
+        "title": "Potápění",
+        "description": "Prozkoumejte bohatý mořský život na Tenerife s nedalekými potápěčskými centry, která nabízejí výlety pro všechny."
+      },
+      {
+        "title": "Plážový volejbal",
+        "description": "Zahrajte si plážový volejbal na písku u moře, ideální aktivita pro skupinovou zábavu."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Formulář pro rezervaci",
+    "description": "Cena za noc je 150 € pro dvě osoby a 20 € za každou další osobu. Zašlete nám svůj požadavek a my vás budeme co nejdříve kontaktovat s potvrzením dostupnosti. Pokud preferujete telefonický kontakt, můžete zavolat na číslo +420 730 893 416.",
+    "form": {
+      "name": "Celé jméno",
+      "email": "E-mailová adresa",
+      "guests": "Počet hostů",
+      "dates": "Data pobytu",
+      "date_from": "Od",
+      "date_to": "Do",
+      "date_placeholder": "Vyberte rozsah dat",
+      "book_button": "Odeslat požadavek",
+      "success_title": "Požadavek odeslán!",
+      "success_description": "Děkujeme za váš zájem. Brzy se vám ozveme.",
+      "error_title": "Jejda! Něco se pokazilo.",
+      "error_description": "Váš požadavek se nepodařilo odeslat. Zkuste to prosím později."
+    }
+  },
+  "footer": {
+    "description": "Vaše exkluzivní útočiště v Alcalá na Tenerife. Užijte si nezapomenutelné výhledy a luxusní pobyt.",
+    "contact": {
+      "title": "Kontakt",
+      "address": "Calle Garajonay 10, Alcalá, Španělsko",
+      "phone": "Telefon: +420 730 893 416"
+    },
+    "quick_links": {
+      "title": "Rychlé odkazy",
+      "booking": "Rezervace"
+    },
+    "copyright": "© {year} DioVista. Všechna práva vyhrazena."
+  }
+}

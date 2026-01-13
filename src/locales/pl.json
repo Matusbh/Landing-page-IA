@@ -1,0 +1,183 @@
+
+{
+  "header": {
+    "nav": {
+      "interior": "Wnętrze",
+      "services": "Usługi",
+      "features": "Cechy",
+      "zone": "Okolica",
+      "restaurants": "Restauracje",
+      "sports": "Sport",
+      "booking": "Rezerwacja"
+    },
+    "book_button": "Rezerwuj teraz",
+    "theme_switcher": {
+      "label": "Motyw",
+      "light": "Jasny",
+      "dark": "Ciemny",
+      "system": "Systemowy"
+    },
+    "language_switcher": {
+      "label": "Język"
+    }
+  },
+  "hero": {
+    "title_line1": "ALCALÁ",
+    "title_line2": "TENERYFA",
+    "title_line3": "Hiszpania",
+    "book_button": "Rezerwuj teraz"
+  },
+  "valueProposition": {
+    "title": "Niezapomniany komfort, doskonała lokalizacja",
+    "brand_name": "DioVista",
+    "apartman_type": "APARTAMENT DWUPOZIOMOWY",
+    "description1": "Witamy w DioVista, ekskluzywnym apartamencie w sercu Alcalá, gdzie luksus spotyka się z spokojem. Zaprojektowany, aby zaoferować wyjątkowe wrażenia, nasz apartament łączy nowoczesne i przytulne wnętrze z spektakularnym tarasem, który zapewni Ci panoramiczne widoki na ocean i zachody słońca, które zapierają dech w piersiach.",
+    "description2": "Każdy szczegół został starannie dobrany, aby zapewnić maksymalny komfort. Od w pełni wyposażonej kuchni po wygodne sypialnie, wszystko jest zaprojektowane tak, abyś czuł się jak w domu, ale z Atlantykiem u stóp. Obudź się przy dźwiękach fal, zjedz śniadanie w słońcu Teneryfy i zakończ dzień toastem w swoim prywatnym raju."
+  },
+  "gallery": {
+    "title": "Wnętrze",
+    "subtitle": "Wizualna wycieczka po pokojach i detalach, które czynią nasz apartament wyjątkowym miejscem."
+  },
+  "services": {
+    "title": "Udogodnienia i usługi",
+    "subtitle": "Wygody, dzięki którym poczujesz się jak w domu.",
+    "items": {
+      "wifi": "Darmowe WiFi",
+      "ac": "Klimatyzacja",
+      "private_bathroom": "Prywatna łazienka",
+      "kitchen": "Pełna kuchnia",
+      "sea_view": "Widok na morze",
+      "terrace": "Taras z widokiem",
+      "washing_machine": "Pralka",
+      "parking": "Parking w pobliżu",
+      "mountain_view": "Widok na góry",
+      "bed_linen": "Pościel",
+      "contactless_checkin": "Zameldowanie bezkontaktowe",
+      "two_bathrooms": "Dwie łazienki",
+      "outdoor_kitchen": "Kuchnia na zewnątrz",
+      "multilingual_checkin": "Zameldowanie wielojęzyczne",
+      "no_smoking": "Zakaz palenia w całym obiekcie"
+    }
+  },
+  "features": {
+    "title": "Dlaczego pokochasz to miejsce",
+    "subtitle": "Wszystko, czego potrzebujesz na idealne wakacje.",
+    "items": [
+      {
+        "title": "Prywatny taras",
+        "description": "Przestronne miejsce do opalania, spożywania posiłków na świeżym powietrzu lub po prostu relaksu przy podziwianiu morza."
+      },
+      {
+        "title": "Idealna lokalizacja",
+        "description": "Zaledwie kilka kroków od plaży, naturalnych basenów, restauracji i sklepów. Cały urok Alcalá na wyciągnięcie ręki."
+      },
+      {
+        "title": "Spektakularne widoki",
+        "description": "Z tarasu i salonu można podziwiać niezakłócone widoki na ocean i wyspę La Gomera."
+      },
+      {
+        "title": "Nowoczesny komfort",
+        "description": "Całkowicie odnowiony i wyposażony we wszystkie nowoczesne udogodnienia, aby zapewnić niezapomniany pobyt."
+      }
+    ]
+  },
+  "explore": {
+    "title": "Odkryj okolicę",
+    "subtitle": "Świat piękna i przygód na wyciągnięcie ręki.",
+    "discover_button": "Odkryj więcej →",
+    "items": [
+      {
+        "title": "Urok Alcalá",
+        "description": "Spaceruj po cichych uliczkach tej autentycznej wioski rybackiej, odkryj jej plac i ciesz się jej zrelaksowaną atmosferą."
+      },
+      {
+        "title": "Plaża w Alcalá",
+        "description": "Przytulna plaża z czarnym piaskiem, idealna na orzeźwiającą kąpiel, zaledwie kilka minut spacerem od apartamentu."
+      },
+      {
+        "title": "Urokliwe wybrzeże",
+        "description": "Przejdź się promenadą, która łączy kilka naturalnych basenów ze słoną wodą, idealnych dla całej rodziny."
+      },
+      {
+        "title": "Plaża Méndez",
+        "description": "Mała, ukryta zatoczka, idealna dla tych, którzy szukają spokoju i bardziej intymnego kontaktu z morzem."
+      },
+      {
+        "title": "Przygody poza miastem",
+        "description": "W niewielkiej odległości samochodem czekają na Ciebie majestatyczne klify Los Gigantes i Park Narodowy Teide."
+      }
+    ]
+  },
+  "restaurants": {
+    "title": "Lokalna gastronomia",
+    "subtitle": "Skosztuj najlepszych dań kuchni kanaryjskiej i międzynarodowej.",
+    "gmaps_button": "Zobacz w Google Maps",
+    "items": [
+      { "name": "Restauracja Sauco" },
+      { "name": "Restauracja El Pescador" },
+      { "name": "Restauracja Muelle Viejo" }
+    ]
+  },
+  "sports": {
+    "title": "Aktywności dla sportowców",
+    "subtitle": "Bądź aktywny i ciesz się naturalnym otoczeniem.",
+    "gmaps_button": "Zobacz w Google Maps",
+    "items": [
+      {
+        "title": "Promenada",
+        "description": "Idealna trasa do spacerów, biegania lub jazdy na rowerze nad morzem."
+      },
+      {
+        "title": "Surfing",
+        "description": "Kilka minut jazdy samochodem, złap fale Teneryfy i ciesz się jednym z najpopularniejszych sportów na wyspie."
+      },
+      {
+        "title": "Golf",
+        "description": "Kilka minut jazdy samochodem znajdują się światowej klasy pola golfowe z spektakularnymi widokami."
+      },
+      {
+        "title": "Tenis",
+        "description": "Zagraj w tenisa na lokalnych kortach dostępnych dla wszystkich poziomów zaawansowania."
+      },
+      {
+        "title": "Nurkowanie",
+        "description": "Odkryj bogate życie morskie Teneryfy z pobliskimi centrami nurkowymi oferującymi wycieczki dla wszystkich."
+      },
+      {
+        "title": "Siatkówka plażowa",
+        "description": "Zagraj w siatkówkę plażową na piasku nad morzem, idealna aktywność do spędzania czasu w grupie."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Formularz rezerwacyjny",
+    "description": "Cena za noc wynosi 150 € dla dwóch osób, a 20 € za każdą dodatkową osobę. Wyślij nam swoje zapytanie, a wkrótce skontaktujemy się z Tobą w celu potwierdzenia dostępności. Jeśli wolisz kontakt telefoniczny, zadzwoń pod numer +420 730 893 416.",
+    "form": {
+      "name": "Imię i nazwisko",
+      "email": "Adres e-mail",
+      "guests": "Liczba gości",
+      "dates": "Daty pobytu",
+      "date_from": "Od",
+      "date_to": "Do",
+      "date_placeholder": "Wybierz zakres dat",
+      "book_button": "Wyślij zapytanie",
+      "success_title": "Zapytanie wysłane!",
+      "success_description": "Dziękujemy za zainteresowanie. Wkrótce się z Tobą skontaktujemy.",
+      "error_title": "O nie! Coś poszło nie tak.",
+      "error_description": "Nie udało się wysłać zapytania. Spróbuj ponownie później."
+    }
+  },
+  "footer": {
+    "description": "Twoje ekskluzywne schronienie w Alcalá na Teneryfie. Ciesz się niezapomnianymi widokami i luksusowym pobytem.",
+    "contact": {
+      "title": "Kontakt",
+      "address": "Calle Garajonay 10, Alcalá, Hiszpania",
+      "phone": "Telefon: +420 730 893 416"
+    },
+    "quick_links": {
+      "title": "Szybkie linki",
+      "booking": "Rezerwacja"
+    },
+    "copyright": "© {year} DioVista. Wszelkie prawa zastrzeżone."
+  }
+}

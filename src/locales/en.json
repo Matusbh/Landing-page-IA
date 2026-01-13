@@ -1,0 +1,183 @@
+
+{
+  "header": {
+    "nav": {
+      "interior": "Interior",
+      "services": "Services",
+      "features": "Features",
+      "zone": "Area",
+      "restaurants": "Restaurants",
+      "sports": "Sports",
+      "booking": "Booking"
+    },
+    "book_button": "Book Now",
+    "theme_switcher": {
+      "label": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "language_switcher": {
+      "label": "Language"
+    }
+  },
+  "hero": {
+    "title_line1": "ALCALÁ",
+    "title_line2": "TENERIFE",
+    "title_line3": "Spain",
+    "book_button": "Book Now"
+  },
+  "valueProposition": {
+    "title": "Unforgettable Comfort, Unbeatable Location",
+    "brand_name": "DioVista",
+    "apartman_type": "DUPLEX APARTMENT",
+    "description1": "Welcome to DioVista, an exclusive penthouse in the heart of Alcalá, where luxury meets serenity. Designed to offer a unique experience, our accommodation combines a modern and cozy interior design with a spectacular terrace that will give you panoramic ocean views and breathtaking sunsets.",
+    "description2": "Every detail has been carefully selected to ensure your maximum comfort. From the fully equipped kitchen to the comfortable rooms, everything is designed to make you feel at home, but with the Atlantic at your feet. Wake up to the sound of the waves, have breakfast under the Tenerife sun, and end the day with a toast in your private paradise."
+  },
+  "gallery": {
+    "title": "Interior",
+    "subtitle": "A visual tour of the rooms and details that make our penthouse a unique place."
+  },
+  "services": {
+    "title": "Features and Services",
+    "subtitle": "Amenities to make you feel at home.",
+    "items": {
+      "wifi": "Free WiFi",
+      "ac": "Air conditioning",
+      "private_bathroom": "Private bathroom",
+      "kitchen": "Full kitchen",
+      "sea_view": "Sea views",
+      "terrace": "Terrace with views",
+      "washing_machine": "Washing machine",
+      "parking": "Nearby parking",
+      "mountain_view": "Mountain views",
+      "bed_linen": "Bed linen",
+      "contactless_checkin": "Contactless check-in",
+      "two_bathrooms": "Two bathrooms",
+      "outdoor_kitchen": "Outdoor kitchen",
+      "multilingual_checkin": "Multilingual check-in",
+      "no_smoking": "No smoking throughout the accommodation"
+    }
+  },
+  "features": {
+    "title": "Why you'll love this place",
+    "subtitle": "Everything you need for a perfect vacation.",
+    "items": [
+      {
+        "title": "Private Terrace",
+        "description": "A spacious area for sunbathing, enjoying an outdoor dinner, or simply relaxing while contemplating the sea."
+      },
+      {
+        "title": "Perfect Location",
+        "description": "Just steps from the beach, natural pools, restaurants, and shops. All the charm of Alcalá at your fingertips."
+      },
+      {
+        "title": "Spectacular Views",
+        "description": "From the terrace and living room, you can enjoy uninterrupted views of the ocean and the island of La Gomera."
+      },
+      {
+        "title": "Modern Comfort",
+        "description": "Completely renovated and equipped with all modern amenities to ensure an unforgettable stay."
+      }
+    ]
+  },
+  "explore": {
+    "title": "Explore the Area",
+    "subtitle": "A world of beauty and adventure at your fingertips.",
+    "discover_button": "Discover more →",
+    "items": [
+      {
+        "title": "The Charm of Alcalá",
+        "description": "Stroll through the quiet streets of this authentic fishing village, discover its square, and enjoy its relaxed atmosphere."
+      },
+      {
+        "title": "Alcalá Beach",
+        "description": "A cozy black sand beach ideal for a refreshing swim, just a few minutes' walk from the penthouse."
+      },
+      {
+        "title": "Enchanting Coastline",
+        "description": "Walk along the promenade that connects several natural saltwater pools, perfect for the whole family."
+      },
+      {
+        "title": "Méndez Beach",
+        "description": "A small hidden cove, ideal for those seeking tranquility and a more intimate contact with the sea."
+      },
+      {
+        "title": "Adventures Beyond",
+        "description": "A short drive away, the majestic cliffs of Los Gigantes and the Teide National Park await you."
+      }
+    ]
+  },
+  "restaurants": {
+    "title": "Local Gastronomy",
+    "subtitle": "Savor the best of Canarian and international cuisine.",
+    "gmaps_button": "View on Google Maps",
+    "items": [
+      { "name": "Sauco Restaurant" },
+      { "name": "El Pescador Restaurant" },
+      { "name": "Muelle Viejo Restaurant" }
+    ]
+  },
+  "sports": {
+    "title": "Activities for Athletes",
+    "subtitle": "Stay active and enjoy the natural surroundings.",
+    "gmaps_button": "View on Google Maps",
+    "items": [
+      {
+        "title": "Promenade",
+        "description": "A perfect route for walking, running, or cycling by the sea."
+      },
+      {
+        "title": "Surfing",
+        "description": "A short drive away, catch the waves of Tenerife and enjoy one of the most popular sports on the island."
+      },
+      {
+        "title": "Golf",
+        "description": "A few minutes' drive away, you'll find world-class golf courses with spectacular views."
+      },
+      {
+        "title": "Tennis",
+        "description": "Enjoy a match at the local tennis courts available for all levels."
+      },
+      {
+        "title": "Diving",
+        "description": "Explore the rich marine life of Tenerife with nearby dive centers offering excursions for everyone."
+      },
+      {
+        "title": "Beach Volleyball",
+        "description": "Play a game of beach volleyball on the sand by the sea, a perfect activity to enjoy with a group."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Booking Request Form",
+    "description": "The price per night is €150 for two people, and €20 for each additional person. Send us your request, and we will contact you shortly to confirm availability. If you prefer to contact by phone, you can call +420 730 893 416.",
+    "form": {
+      "name": "Full name",
+      "email": "Email address",
+      "guests": "Number of guests",
+      "dates": "Dates of stay",
+      "date_from": "From",
+      "date_to": "To",
+      "date_placeholder": "Select a date range",
+      "book_button": "Send Request",
+      "success_title": "Request Sent!",
+      "success_description": "Thank you for your interest. We will be in touch with you soon.",
+      "error_title": "Uh oh! Something went wrong.",
+      "error_description": "Could not send your request. Please try again later."
+    }
+  },
+  "footer": {
+    "description": "Your exclusive retreat in Alcalá, Tenerife. Enjoy unforgettable views and a luxury stay.",
+    "contact": {
+      "title": "Contact",
+      "address": "Calle Garajonay 10, Alcalá, Spain",
+      "phone": "Phone: +420 730 893 416"
+    },
+    "quick_links": {
+      "title": "Quick links",
+      "booking": "Booking"
+    },
+    "copyright": "© {year} DioVista. All rights reserved."
+  }
+}

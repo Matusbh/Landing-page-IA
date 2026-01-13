@@ -1,0 +1,163 @@
+{
+  "heroBackground": {
+    "src": "/images/prueba-sunset.png",
+    "alt": "Sunset view from the terrace",
+    "hint": "sunset terrace"
+  },
+  "gallery": [
+    {
+      "id": "gallery6",
+      "src": "/images/casa-1.jpeg",
+      "alt": "Bathroom with modern fixtures",
+      "hint": "modern bathroom"
+    },
+    {
+      "id": "gallery1",
+      "src": "/images/cama-principal-02.jpg",
+      "alt": "Comfortable living room with a view",
+      "hint": "living room"
+    },
+    {
+      "id": "gallery2",
+      "src": "/images/terraza-01.jpg",
+      "alt": "Modern and fully equipped kitchen",
+      "hint": "modern kitchen"
+    },
+    {
+      "id": "gallery3",
+      "src": "/images/cama-principal-01.jpg",
+      "alt": "Cozy bedroom with natural light",
+      "hint": "cozy bedroom"
+    },
+    {
+      "id": "gallery5",
+      "src": "/images/bano-01.jpg",
+      "alt": "Bathroom with modern fixtures",
+      "hint": "modern bathroom"
+    },
+    {
+      "id": "gallery7",
+      "src": "/images/comedor-01.jpg",
+      "alt": "Bathroom with modern fixtures",
+      "hint": "modern bathroom"
+    },
+    {
+      "id": "gallery8",
+      "src": "/images/terraza-01.jpg",
+      "alt": "Bathroom with modern fixtures",
+      "hint": "modern bathroom"
+    },
+    {
+      "id": "gallery9",
+      "src": "/images/terraza-02.jpg",
+      "alt": "Bathroom with modern fixtures",
+      "hint": "modern bathroom"
+    },
+    {
+      "id": "gallery10",
+      "src": "/images/cocina-01.jpg",
+      "alt": "Bathroom with modern fixtures",
+      "hint": "modern bathroom"
+    },
+    {
+      "id": "gallery11",
+      "src": "/images/bano-bien-02.jpg",
+      "alt": "Bathroom with modern fixtures",
+      "hint": "modern bathroom"
+    },
+    {
+      "id": "gallery12",
+      "src": "/images/cuarto-2.jpeg",
+      "alt": "Bathroom with modern fixtures",
+      "hint": "modern bathroom"
+    },
+    {
+      "id": "gallery4",
+      "src": "/images/cala.jpeg",
+      "alt": "Spacious terrace with sunbeds",
+      "hint": "terrace sunbeds"
+    },
+    {
+      "id": "gallery13",
+      "src": "/images/parque.jpeg",
+      "alt": "Bathroom with modern fixtures",
+      "hint": "modern bathroom"
+    },
+    {
+      "id": "gallery14",
+      "src": "/images/flores.jpeg",
+      "alt": "Bathroom with modern fixtures",
+      "hint": "modern bathroom"
+    }
+  ],
+  "explore": [
+    {
+      "id": "explore1",
+      "src": "/images/alcala-tenerife-pueblo.webp",
+      "alt": "Charming streets of Alcalá",
+      "hint": "charming street"
+    },
+    {
+      "id": "explore2",
+      "src": "/images/playa-la-jaquita.webp",
+      "alt": "Alcalá beach with volcanic sand",
+      "hint": "volcanic beach"
+    },
+    {
+      "id": "explore3",
+      "src": "/images/costa.webp",
+      "alt": "Stunning coastline view",
+      "hint": "coastline view"
+    },
+    {
+      "id": "explore4",
+      "src": "/images/Mendaz.webp",
+      "alt": "Secluded Méndez beach",
+      "hint": "secluded beach"
+    },
+    {
+      "id": "explore5",
+      "src": "/images/gigas.webp",
+      "alt": "The majestic cliffs of Los Gigantes",
+      "hint": "majestic cliffs"
+    }
+  ],
+  "sports": [
+    {
+      "id": "sports6",
+      "src": "/images/paseo.PNG",
+      "alt": "Voleyball ball",
+      "hint": "beach voleyball"
+    },
+    {
+      "id": "sports4",
+      "src": "/images/surf-2.jpg",
+      "alt": "Surfer riding a wave",
+      "hint": "wave surfing"
+    },
+    {
+      "id": "sports1",
+      "src": "/images/golf.jpg",
+      "alt": "Person hiking on a coastal trail",
+      "hint": "coastal hiking"
+    },
+    {
+      "id": "sports3",
+      "src": "/images/tenis.jpg",
+      "alt": "Golfer on a lush green course",
+      "hint": "golf course"
+    },
+    {
+      "id": "sports5",
+      "src": "/images/buceo-bien.jpg",
+      "alt": "Diving in the ocean",
+      "hint": "ocean diving"
+    },
+    {
+      "id": "sports2",
+      "src": "/images/voley.PNG",
+      "alt": "Cyclist on a scenic mountain road",
+      "hint": "mountain cycling"
+    }
+  ]
+}
